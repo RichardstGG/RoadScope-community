@@ -1,0 +1,5 @@
+title: RoadScope
+lang: zh-TW
+exclude:
+  - README.md
+  - CONTRIBUTING.md
