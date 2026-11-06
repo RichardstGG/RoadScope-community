@@ -1,0 +1,1599 @@
+{
+  "whatsNewTitle": "Updated to {version}",
+  "@whatsNewTitle": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "whatsNewSubtitle": "What’s new in this version",
+  "whatsNewClose": "Got it",
+  "freeRecHideSpeed": "Long press to hide speed",
+  "freeRecRestoreSpeed": "Long press to restore speed display",
+  "freeRecSpeedVisible": "Speed is shown. Long press to hide speed.",
+  "freeRecSpeedHidden": "Speed is hidden. Long press to restore speed display.",
+  "@@locale": "en",
+  "debug": "Debug",
+  "settings": "Settings",
+  "routes": "Courses",
+  "history": "History",
+  "home": "Home",
+  "timing": "Timing",
+  "freeRecording": "Free log",
+  "freeRecWaitingLocation": "Waiting for location",
+  "freeRecMode": "Free recording",
+  "freeRecLast": "Last free recording",
+  "freeRecStart": "Start free recording",
+  "freeRecRecording": "Recording",
+  "freeRecElapsed": "Elapsed time",
+  "freeRecTotalElapsed": "Total elapsed time",
+  "freeRecMoving": "Moving time",
+  "freeRecDistance": "Distance",
+  "freeRecAverage": "Average",
+  "freeRecAverageMoving": "Average speed (moving)",
+  "freeRecMaxSpeed": "Maximum speed (GPS)",
+  "freeRecGaps": "Data gaps",
+  "freeRecCurrentSpeed": "Current speed",
+  "freeRecStarted": "Started at",
+  "freeRecFinish": "Finish recording",
+  "freeRecComplete": "Recording complete",
+  "freeRecShare": "Share",
+  "freeRecEstimate": "Distance and speed are GPS estimates for reference only; data gaps are excluded.",
+  "freeRecApply": "Apply course",
+  "freeRecDone": "Done",
+  "freeRecChoose": "Choose recording mode",
+  "freeRecFixed": "Fixed course",
+  "freeRecFixedNote": "Segment or circuit timing starts at timing lines; select a course first",
+  "freeRecFreeNote": "Record the entire trip without a course",
+  "freeRecReturn": "Back to free recording",
+  "freeRecBusy": "Free recording is in progress. Finish the current recording first.",
+  "freeRecTimingBusy": "Timing is in progress. Finish the current recording first.",
+  "freeRecBanner": "Free recording · {elapsed}",
+  "@freeRecBanner": {
+    "placeholders": {
+      "elapsed": {
+        "type": "String"
+      }
+    }
+  },
+  "freeRecGapCount": "{count} gaps",
+  "@freeRecGapCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "freeRecGapSummary": "{count} gaps · {seconds} s",
+  "@freeRecGapSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "freeRecLoadError": "Unable to load the recording. Please retry.",
+  "freeRecActionError": "The action could not be completed. Please retry.",
+  "freeRecSessionError": "Recording needs attention. Check location and recording status, then retry.",
+  "noRoutes": "No courses yet. Create a course to get started.",
+  "createRoute": "Create course",
+  "startRecording": "Start recording",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "historyTrips": "Trip history",
+  "refresh": "Refresh",
+  "retry": "Retry",
+  "noLocalTrips": "No local trips yet",
+  "noTimingResults": "No course selected / no timing results yet",
+  "deleteTripQuestion": "Delete trip?",
+  "deleteTripWarning": "Tracks and original files will be deleted from this phone. Garage and route statistics and best laps will be kept.",
+  "exportGpx": "Export GPX",
+  "exportTiming": "Export timing data",
+  "tripDetails": "Trip details",
+  "notProvided": "Not provided",
+  "viewTimingDetails": "View runs/laps, sectors and reason codes",
+  "exportRequiresClosedFiles": "Stop recording and close native files before exporting. Active or unfinished interrupted trips cannot be exported.",
+  "deleteTrip": "Delete trip",
+  "retryDelete": "Retry deletion",
+  "loading": "Loading",
+  "unavailable": "Unavailable",
+  "allowed": "Allowed",
+  "notAllowed": "Not allowed",
+  "speedUnit": "Speed unit",
+  "storageUsage": "Storage usage",
+  "permissionStatus": "Permissions",
+  "openAppSettings": "Open app permission settings",
+  "p0Diagnostics": "P0 location diagnostics and export",
+  "versionInfo": "Version",
+  "versionUnavailable": "Version unavailable",
+  "recording": "Recording",
+  "stopping": "Stopping, saving and closing files",
+  "resuming": "Resuming recording",
+  "interrupted": "Recording interrupted",
+  "waitingPermission": "Waiting for location permission",
+  "recordingError": "Recording error",
+  "idle": "Not recording",
+  "invalidOrMissing": "Invalid / not provided",
+  "notAvailable": "Not available",
+  "unknown": "Unknown",
+  "vendorXiaomi": "Allow autostart in Xiaomi settings and set battery usage to unrestricted. The app cannot reliably read this vendor-specific autostart setting.",
+  "vendorOppo": "Allow auto/associated launch and background battery activity. The app cannot reliably read these vendor settings.",
+  "vendorVivo": "Allow RoadScope in background battery and autostart management. The app cannot reliably read these vendor settings.",
+  "vendorHuawei": "Use manual app launch management and allow autostart and background execution. The app cannot reliably read these vendor settings.",
+  "vendorOther": "Check that the system allows RoadScope to run in the background.",
+  "androidBackgroundSetup": "Android background setup",
+  "manufacturer": "Manufacturer",
+  "notificationPermission": "Persistent notification permission",
+  "batteryOptimization": "Battery optimization",
+  "batteryExcluded": "Excluded",
+  "batteryRestricted": "Still restricted",
+  "backgroundSetupWarning": "Complete these settings before long tests. Denied notifications do not prevent recording, but hide the persistent notification and leave background collection evidence incomplete.",
+  "openBatterySettings": "Open battery optimization settings",
+  "backgroundSetupReturn": "RoadScope refreshes public status on return. Verify vendor autostart settings manually.",
+  "telemetryHeading": "Diagnostic telemetry (separate from location-log v1)",
+  "noTelemetry": "No telemetry yet. It is written once recording starts.",
+  "batteryLevel": "Battery level",
+  "chargingState": "Charging status",
+  "charging": "Charging",
+  "notCharging": "Not charging",
+  "powerSource": "Power source",
+  "powerAc": "AC",
+  "powerWireless": "Wireless",
+  "powerDock": "Dock",
+  "powerNone": "No external power",
+  "powerSave": "Power saving",
+  "on": "On",
+  "off": "Off",
+  "appState": "App state",
+  "foreground": "Foreground",
+  "inactive": "Inactive foreground",
+  "background": "Background",
+  "screenInteractive": "Screen interactive",
+  "yes": "Yes",
+  "no": "No",
+  "keyguardState": "Keyguard state",
+  "locked": "Locked",
+  "unlocked": "Unlocked",
+  "protectedData": "iOS protected data available",
+  "available": "Available",
+  "notUsable": "Unavailable",
+  "screenStateSource": "Screen state source",
+  "locationServiceState": "Location service state",
+  "started": "Started",
+  "stopped": "Stopped",
+  "restarted": "Restarted",
+  "failed": "Failed",
+  "locationServiceDetail": "Location service detail",
+  "restartCount": "Process restart count",
+  "resumeReason": "Resume reason",
+  "notResumed": "Not resumed",
+  "processRestart": "Process restart",
+  "crashResume": "Resumed after crash",
+  "bootResume": "Resumed after reboot",
+  "telemetryUtc": "Telemetry time (UTC)",
+  "telemetryMonotonic": "Telemetry monotonic time",
+  "lastLocationSequence": "Last location sequence",
+  "trigger": "Trigger",
+  "startNativeRecording": "Start recording",
+  "resumeNativeRecording": "Resume recording",
+  "stopNativeRecording": "Stop recording",
+  "abruptEnd": "Previous segment ended unexpectedly",
+  "locationServiceChange": "Location service change",
+  "taskRemoved": "Removed from recent tasks",
+  "stateChange": "State change",
+  "heartbeat": "Heartbeat",
+  "telemetryCount": "Telemetry records / bad lines",
+  "unavailableFields": "Unavailable fields",
+  "telemetryExportable": "Telemetry export",
+  "exportable": "Available",
+  "notExportable": "Currently unavailable",
+  "telemetryDisclaimer": "Telemetry supports later diagnostics and does not prove background collection stability.",
+  "locationDiagnostics": "RoadScope location diagnostics",
+  "interruptedRecordingNote": "Native collection has stopped. Resume this recording or finish it to export. Reopening the app or rebooting does not automatically resume location collection.",
+  "locationStatus": "Location status",
+  "freshLocation": "Fresh location",
+  "staleLocation": "No new location / sample expired",
+  "sampleAge": "Sample age",
+  "noData": "No data yet",
+  "secondsUnit": "s",
+  "sampleUtc": "Sample time (UTC)",
+  "noSamples": "No samples yet",
+  "sampleInterval": "Sample interval",
+  "utcIntervalWarning": "Interval uses measurement UTC and may be affected by clock adjustments.",
+  "horizontalAccuracy": "Horizontal accuracy",
+  "metersUnit": "m",
+  "speedAccuracy": "Speed accuracy",
+  "metersPerSecondUnit": "m/s",
+  "sampleCount": "Total samples",
+  "eventsWarnings": "Events / warnings",
+  "diagnosticVersion": "Diagnostic build 0.0.2+2 · location-log v1",
+  "liveSummaryDisclaimer": "The live summary covers only recently saved data. Use exported files after stopping for full validation.",
+  "stopTimeout": "Stop timed out. Waiting for writes to finish; export and new recordings remain unavailable.",
+  "resumeSameRecording": "Resume this recording",
+  "finishRecording": "Finish this recording",
+  "locationShareWarning": "RoadScope location-log v1 contains precise locations. Share only with trusted recipients.",
+  "exportLocationLog": "Export location-log v1",
+  "telemetryShareNote": "RoadScope diagnostics telemetry contains device and app status without location data.",
+  "exportTelemetry": "Export diagnostics telemetry",
+  "exportSeparateFiles": "Stop recording before exporting. Files are exported separately: location-log v1 contains precise locations; diagnostics telemetry contains only device and app status.",
+  "language": "Language",
+  "languageSystem": "System default",
+  "languageTraditionalChinese": "繁體中文",
+  "languageEnglish": "English",
+  "historyLoadError": "Could not load history: {error}",
+  "recordingStatus": "Status: {status}",
+  "historyResultSummary": "{route} · v{version} · Best valid time {time}\nValidity: {validity}",
+  "positionWarning": "Exported files contain precise locations and times. Share only with trusted recipients.",
+  "tripDate": "Date: {date}",
+  "tripEnd": "Ended: {date}",
+  "recordingId": "Recording ID: {id}",
+  "routeSnapshot": "Course snapshot: {name} · {id} · v{version}",
+  "bestValidTime": "Best valid time: {time}",
+  "algorithmVersion": "Algorithm: {version}",
+  "storageBytes": "Closed native files: {native} bytes\nDatabase (including WAL/SHM): {database} bytes\nTotal: {total} bytes",
+  "storageIncomplete": "\nSome trips are not closed or cannot be read. Usage is incomplete:\n{details}",
+  "permissionsSummary": "Location permission: {location}\n{accuracy}\nNotifications: {notification}\nBattery optimization excluded: {battery}",
+  "appVersion": "RoadScope · {version}\nlocation-log v1",
+  "unknownValue": "{value} (unknown value)",
+  "historyNotValidated": "{count} / history not validated",
+  "interruptedTelemetry": "The previous recording did not close normally (process killed, crash or power loss). Location data was written through sequence {sequence}.",
+  "diagnosticDetail": "{label}: {value}",
+  "listSeparator": ", ",
+  "settingsGeneral": "General",
+  "settingsPermissionsData": "Permissions & data",
+  "settingsAbout": "About",
+  "garage": "Garage",
+  "comingSoon": "Coming soon",
+  "locationPermission": "Location permission",
+  "diagnosticExport": "Diagnostic export",
+  "version": "Version",
+  "timingEngine": "Timing engine",
+  "storagePartial": "Some data unavailable",
+  "storageSizeBytes": "{bytes} B",
+  "storageSizeKiB": "{size} KiB",
+  "storageSizeMiB": "{size} MiB",
+  "preferenceSaveError": "Could not save preferences: {error}",
+  "permissionPreciseAllowed": "Precise location allowed",
+  "permissionApproximateOnly": "Approximate location only",
+  "permissionAlways": "Always allowed",
+  "permissionWhileUsing": "Allowed while using app",
+  "permissionRestricted": "Restricted by system",
+  "permissionNotRequested": "Not requested",
+  "permissionUnknown": "Unknown",
+  "permissionPrecise": "Precise location",
+  "permissionApproximate": "Approximate location",
+  "permissionBackgroundDenied": "Not allowed (foreground recording follows system rules)",
+  "close": "Close",
+  "languageSystemCurrent": "System default ({language})",
+  "vehicleCount": "{count} vehicles",
+  "addVehicle": "Add vehicle",
+  "editVehicle": "Edit vehicle",
+  "currentVehicle": "Current vehicle",
+  "vehicleCategory": "Category (optional)",
+  "vehicleCategoryUncategorized": "Uncategorized",
+  "vehicleCategoryBicycle": "Bicycle",
+  "vehicleCategoryMotorcycle": "Motorcycle",
+  "vehicleCategoryHeavyMotorcycle": "Large motorcycle",
+  "vehicleCategoryCar": "Car",
+  "vehicleCategoryTruck": "Truck",
+  "vehicleCategoryRacing": "Race vehicle",
+  "vehicleCategoryOther": "Other",
+  "vehicleName": "Nickname (optional)",
+  "vehicleYear": "Year",
+  "vehicleNameRequired": "Enter a nickname or both brand and model",
+  "vehicleYearInvalid": "Enter a year between 1900 and 2100",
+  "vehicleNoRecords": "No recordings",
+  "vehicleRecordCount": "{count} recordings",
+  "currentVehicleRecords": "Current vehicle · {records}",
+  "garageEmpty": "No vehicles yet. Add your first vehicle.",
+  "garageHint": "Tap a card to select the current vehicle. Tap Edit to change its details. New recordings use the current vehicle.",
+  "pickVehicle": "Choose vehicle",
+  "pickVehicleHint": "Tap a vehicle to apply it and return. Tap the arrow on the right to edit a vehicle.",
+  "chooseVehiclePhoto": "Choose photo (library or camera)",
+  "photoLibrary": "Photo library",
+  "photoCamera": "Camera",
+  "useVehicleForRecording": "Use for new recordings",
+  "vehicleHistoryNote": "Used by {count} recordings. Deleting this vehicle keeps recordings and their original vehicle name.",
+  "deleteVehicle": "Delete vehicle",
+  "deleteVehicleConfirmation": "Delete “{name}”? Its photo will be removed. Existing recordings keep their original vehicle name.",
+  "garageError": "Could not complete the action. Please retry. {error}",
+  "saveVehicle": "Save",
+  "homeLocationChecking": "Checking location status",
+  "homeLocationUnknown": "Location status unavailable",
+  "homeLocationDisabled": "Location services are off",
+  "homeLocationEnabled": "Location is enabled",
+  "homeLocationPermission": "Location permission needed",
+  "homeAddFirstVehicle": "Add your first vehicle",
+  "homeVehiclePhoto": "Vehicle photo",
+  "homeViewAll": "View all",
+  "homeVehiclePage": "Vehicle {page} of {count}",
+  "@homeVehiclePage": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyHoursMinutes": "{hours} hr {minutes} min",
+  "@historyHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "historyMinutes": "{minutes} min",
+  "@historyMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "historyUnknownPlace": "Unknown location",
+  "historyNote": "Note: {note}",
+  "@historyNote": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "historyInvalidRuns": "Includes invalid runs",
+  "historyIncomplete": "Incomplete",
+  "historyUntimedRecording": "Route recording",
+  "historyCircuit": "Circuit timing",
+  "historySegment": "Segment recording",
+  "historyTitle": "History",
+  "historyFilterAll": "All",
+  "historyFilterSegment": "Segment",
+  "historyFilterCircuit": "Circuit",
+  "historyAllVehicles": "All vehicles",
+  "historyVehicleFilter": "Filter by vehicle",
+  "historyMonth": "{year}/{month}",
+  "historyShare": "Share",
+  "historyStatTotal": "Total time",
+  "historyStatBestLap": "Best lap",
+  "historyStatBestRun": "Best run",
+  "historyStatValidLaps": "Valid laps",
+  "historyStatValidRuns": "Valid runs",
+  "historyStatGaps": "Data gaps",
+  "historyPlaceAndNote": "Place and note",
+  "historyPlaceLabel": "Place (looked up at the end when online)",
+  "historyNoteLabel": "Note (tap to edit)",
+  "historyAddNote": "Add a note",
+  "historyEditNote": "Edit note",
+  "historyRuns": "Runs",
+  "historyLaps": "Laps",
+  "historyTagValid": "Valid",
+  "historyTagInvalid": "Invalid",
+  "historyDeleteRecord": "Delete recording",
+  "routeLineStartFinish": "Start/finish",
+  "routeLineStart": "Start",
+  "routeLineFinish": "Finish",
+  "routeSectorCount": "{count} sectors",
+  "routeCheckpointCount": "{count} checkpoints",
+  "routeGroupSegments": "Routes",
+  "routeGroupCircuits": "Circuits",
+  "timingCurrentVehicle": "Current vehicle",
+  "timingNoVehicle": "Not set",
+  "timingViewResult": "View this result",
+  "timingStopCapture": "Stop point capture",
+  "lineSector": "Sector",
+  "lineCheckpoint": "Checkpoint",
+  "timingUnarmed": "Preparing timing",
+  "timingArmed": "Waiting for start crossing",
+  "timingRunning": "Timing",
+  "timingFinished": "Timing finished",
+  "gpsPoor": "Poor GPS quality",
+  "gpsUnknownQuality": "Unknown GPS quality flags",
+  "gpsGood": "GPS quality OK (device accuracy unverified)",
+  "reasonIncomplete": "Finish not crossed",
+  "reasonMissingLine": "Missing required sector or checkpoint",
+  "reasonLineOrder": "Incorrect crossing order",
+  "reasonDataGap": "Location data gap",
+  "reasonTimeBase": "Degraded time base: measurement UTC",
+  "reasonAccuracy": "Insufficient location accuracy",
+  "reasonQuality": "Unknown quality flags",
+  "reasonElapsed": "Non-positive elapsed time",
+  "captureStationary": "Stop the vehicle to capture a point",
+  "captureAccuracy": "Low accuracy. Try again in an open area.",
+  "captureDispersion": "Location spread too large. Capture again.",
+  "captureApproach": "Approach direction missing: drive straight for at least 20 m in the crossing direction, then stop.",
+  "captureQuality": "Samples contain unsupported quality flags",
+  "captureSamples": "Location samples not ready or time discontinuous",
+  "captureGeometry": "Point capture unsupported at this geometry",
+  "captureStartFirst": "Start point capture and wait for a fresh location.",
+  "routeCompleteRequired": "Enter a course name and capture every line",
+  "routeSaveBusy": "Still processing samples. Save the course again.",
+  "routeCaptured": "Captured",
+  "routePending": "Pending",
+  "routeLengthUpdated": "Course length updated",
+  "routeLengthDisplay": "Course length (display only)",
+  "routeNameLabel": "Course name",
+  "routeModeSegment": "Segment",
+  "routeModeCircuit": "Circuit",
+  "routeTimingLines": "Timing lines ({count} sectors / max 8)",
+  "@routeTimingLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeSectorLimitLabel": "{label} (limit reached)",
+  "@routeSectorLimitLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "routeSectorLimitHelp": "Up to 8 sectors, or 7 sector lines.",
+  "routeAddSector": "Add next sector (stationary capture)",
+  "routeAddCheckpoint": "Add next checkpoint",
+  "captureInstructions": "Operate only when safely parked. Approach in the intended direction, stop for about 5 seconds, then capture when the button activates.",
+  "captureWidthNote": "The line is centered on the parked position. Wider lines may trigger on adjacent roads. Recapture existing lines to apply a new width.",
+  "captureStart": "Start point capture",
+  "routeLengthMetres": "Course length (metres)",
+  "validityDegraded": "Degraded",
+  "resultTitle": "This result",
+  "done": "Done",
+  "circuitRecording": "Circuit recording",
+  "resultNoCrossings": "No crossings yet; the start was not crossed.",
+  "resultAccuracyNote": "Official times use crossing results only. Display resolution does not indicate device measurement accuracy.",
+  "shareResult": "Share result",
+  "dashboardResuming": "Resuming",
+  "dashboardInterrupted": "Interrupted",
+  "dashboardStopping": "Stopping",
+  "dashboardRecording": "Recording",
+  "dashboardSpeed": "Speed",
+  "dashboardLocationGap": "Location gap",
+  "dashboardCurrentLap": "Current lap",
+  "dashboardCurrentRun": "Current run",
+  "dashboardAllTimeBest": "All-time best",
+  "dashboardFaster": "Beats today’s best",
+  "dashboardSlower": "Behind today’s best",
+  "dashboardNoSectors": "No sector lines on this course; sector bars hidden",
+  "dashboardLapRecords": "Lap records",
+  "dashboardRunRecords": "Run records",
+  "dashboardLapTime": "Lap time",
+  "timingTime": "Time",
+  "timingDelta": "Delta",
+  "timingStatus": "Status",
+  "dashboardInProgress": "In progress",
+  "dashboardAutoArm": "Automatically waits for the next run after each finish. Crossing the start forward on the return trip also starts timing.",
+  "timingFinish": "Finish",
+  "timingFinishHint": "Tap to confirm finish",
+  "finishHold": "Hold",
+  "shortTimingQuestion": "No full run or lap was completed. Delete this recording?",
+  "shortFreeRecordingQuestion": "This recording is under 20 m. Delete it?",
+  "shortRecordingDelete": "Delete",
+  "shortRecordingKeep": "Keep",
+  "finishQuestion": "Finish this recording?",
+  "finishInstructions": "Hold both side buttons for 1 second to finish.\nRecording will stop and results will appear.",
+  "finishReturn": "Back to timing",
+  "reasonUnknown": "Unknown reason ({code})",
+  "@reasonUnknown": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "gpsConfirmation": "GPS quality: {quality}",
+  "@gpsConfirmation": {
+    "placeholders": {
+      "quality": {
+        "type": "String"
+      }
+    }
+  },
+  "gpsAccuracy": "Horizontal accuracy: {accuracy}",
+  "@gpsAccuracy": {
+    "placeholders": {
+      "accuracy": {
+        "type": "String"
+      }
+    }
+  },
+  "gpsSampleAge": "Sample age: {age}",
+  "@gpsSampleAge": {
+    "placeholders": {
+      "age": {
+        "type": "String"
+      }
+    }
+  },
+  "timingSeconds": "{seconds} s",
+  "@timingSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "routeCapturedLine": "{line} captured",
+  "@routeCapturedLine": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeEditVersion": "Edit course · v{version}",
+  "@routeEditVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "routeReverseLine": "Reverse {line} direction",
+  "@routeReverseLine": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeCaptureFor": "Capture “{line}”",
+  "@routeCaptureFor": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeCaptureLine": "Capture {line}",
+  "@routeCaptureLine": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeRecaptureLine": "Recapture {line}",
+  "@routeRecaptureLine": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeCaptureMetadata": "Samples: {count} · Spread: {dispersion} m · Bearing: {bearing}° · Width: {width} m",
+  "@routeCaptureMetadata": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "dispersion": {
+        "type": "String"
+      },
+      "bearing": {
+        "type": "String"
+      },
+      "width": {
+        "type": "String"
+      }
+    }
+  },
+  "routeWidth": "Width {width} m",
+  "@routeWidth": {
+    "placeholders": {
+      "width": {
+        "type": "String"
+      }
+    }
+  },
+  "routeWidthDefault": "Width {width} m (default)",
+  "@routeWidthDefault": {
+    "placeholders": {
+      "width": {
+        "type": "String"
+      }
+    }
+  },
+  "resultRouteVersion": "Course version v{version}",
+  "@resultRouteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "resultRunReason": "{unit} {index} {validity}: {reasons}",
+  "@resultRunReason": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "unit": {
+        "type": "String"
+      },
+      "validity": {
+        "type": "String"
+      },
+      "reasons": {
+        "type": "String"
+      }
+    }
+  },
+  "resultSectors": "{unit} and sectors (seconds)",
+  "@resultSectors": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultRunIndex": "{unit}",
+  "@resultRunIndex": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultStatistics": "Data gaps: {gaps} · Time regressions: {regressions}",
+  "@resultStatistics": {
+    "placeholders": {
+      "gaps": {
+        "type": "int"
+      },
+      "regressions": {
+        "type": "int"
+      }
+    }
+  },
+  "resultFindings": "Import flags: {findings}",
+  "@resultFindings": {
+    "placeholders": {
+      "findings": {
+        "type": "String"
+      }
+    }
+  },
+  "resultQuality": "Quality flags: {flags}",
+  "@resultQuality": {
+    "placeholders": {
+      "flags": {
+        "type": "String"
+      }
+    }
+  },
+  "finishHeldSeconds": "Held for {seconds} s…",
+  "@finishHeldSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "resultBestUnit": "Best {unit}",
+  "@resultBestUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultValidUnit": "Valid {unit}",
+  "@resultValidUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "timingLapUnit": "Lap",
+  "@timingLapUnit": {
+    "placeholders": {}
+  },
+  "timingRunUnit": "Run",
+  "@timingRunUnit": {
+    "placeholders": {}
+  },
+  "gpsNoFreshHint": "No live location. Start collection, then check quality once fresh samples arrive.",
+  "@gpsNoFreshHint": {
+    "placeholders": {}
+  },
+  "timingLapsHeading": "LAPS",
+  "timingRunsHeading": "RUNS",
+  "timingSpeedHeading": "SPEED",
+  "timingBestHeading": "BEST",
+  "timingDeltaHeading": "DELTA",
+  "timingTotalHeading": "TOTAL",
+  "timingGpsHeading": "GPS",
+  "mapTrack": "Track map",
+  "mapStart": "S",
+  "mapEnd": "F",
+  "mapGap": "Gap {seconds} s",
+  "mapSector": "Sector {number}",
+  "mapCheckpoint": "Checkpoint {number}",
+  "mapZoomIn": "Zoom in",
+  "mapZoomOut": "Zoom out",
+  "mapNorth": "North",
+  "mapCurrentPosition": "Current position",
+  "mapNoBase": "No base map",
+  "mapBySpeed": "By speed",
+  "mapMonochrome": "Single color",
+  "mapSlow": "Slow",
+  "mapFast": "Fast",
+  "mapStyleSaveError": "Could not save track style. Please try again.",
+  "mapLoadError": "Map unavailable",
+  "mapTrackLoadError": "Could not load the track.",
+  "@mapGap": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "@mapSector": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@mapCheckpoint": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "applyRouteListHeader": "Routes",
+  "applyRouteTitle": "Apply route",
+  "applyRouteEntry": "＋ Apply route",
+  "applyRouteExplanation": "Select a route to calculate timing results from this track. The original recording stays unchanged.",
+  "applyRoutePreviewHint": "Visually check the track and timing lines. Validity is determined by the calculated result.",
+  "applyRouteAlreadyApplied": "Applied",
+  "applyRouteStartFinish": "Start, finish",
+  "applyRouteLapLine": "Start/finish",
+  "applyRouteConfirm": "Apply “{route}”",
+  "applyRouteResultSummary": "Best {best} · Valid {valid} / {total}",
+  "applyRouteLoadError": "Unable to load routes. Please retry.",
+  "applyRouteSaveError": "Unable to apply the route. Check that the recording is finished and contains location samples, then retry.",
+  "@applyRouteConfirm": {
+    "placeholders": {
+      "route": {
+        "type": "String"
+      }
+    }
+  },
+  "@applyRouteResultSummary": {
+    "placeholders": {
+      "best": {
+        "type": "String"
+      },
+      "valid": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "history107AppliedRoutes": "{count} routes applied",
+  "history107ContainsGaps": "Contains data gaps",
+  "history107TimingRecording": "Timing recording",
+  "history107GapDuration": "gaps · {seconds} s",
+  "@history107AppliedRoutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@history107GapDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "freeRecStops": "Stops",
+  "mapFollow": "Follow",
+  "mapWholePath": "Whole path",
+  "mapFitWholePath": "Show the whole path",
+  "mapShowWholePath": "Show the whole path",
+  "mapFollowPosition": "Follow the current position",
+  "resultSessionTheoreticalBest": "Session theoretical best {unit}",
+  "@resultSessionTheoreticalBest": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultAllTimeTheoreticalBest": "All-time theoretical best {unit}",
+  "@resultAllTimeTheoreticalBest": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultFasterThanBest": "{delta} faster than best {unit}",
+  "@resultFasterThanBest": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      },
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "routeMapAddSector": "+ Place sector on map",
+  "routeMapAddCheckpoint": "+ Place checkpoint on map",
+  "routeMapRequiresEndpoints": "Capture the start and finish (start/finish line for a circuit) before placing lines on the map.",
+  "routeMapPick": "Tap the map to pick a location",
+  "routeMapDrag": "Drag the preview line center to move it",
+  "routeMapRotateMinus": "Rotate −15°",
+  "routeMapRotatePlus": "Rotate +15°",
+  "routeMapDone": "Place line",
+  "routeMapPlaced": "Map placed",
+  "routeMapAdjust": "Adjust",
+  "routeFromRecordingEntry": "＋ Create route from this recording",
+  "routeFromRecordingName": "Free recording {place}",
+  "routeFromRecordingUnavailable": "No track is available to create a route.",
+  "routeFromRecordingApplyError": "Route saved, but applying it failed. Try again with “Apply route”.",
+  "routeReorderLine": "Drag to reorder timing line",
+  "mapSpeedReference": "Based on this recording’s maximum speed",
+  "trackSpeedSettings": "Track colors (by speed)",
+  "trackSpeedGreen": "Green",
+  "trackSpeedYellow": "Yellow",
+  "trackSpeedOrange": "Orange",
+  "trackSpeedRed": "Red",
+  "trackSpeedPurple": "Purple",
+  "trackSpeedReset": "Restore defaults",
+  "trackSpeedSave": "Save",
+  "trackSpeedBoundary": "Boundary {number}",
+  "trackSpeedIntegerError": "Enter an integer percentage from 1 to 99",
+  "trackSpeedOrderError": "Boundaries must be strictly increasing",
+  "@trackSpeedBoundary": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingGroupBadge": "Merged {count} parts",
+  "@recordingGroupBadge": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingSelected": "{count} selected",
+  "@recordingSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMerge": "Merge",
+  "recordingMergeSameVehicle": "Different vehicle",
+  "recordingMergeFinishedOnly": "Only finished recordings can be merged",
+  "recordingMergeQuestion": "Merge {count} recordings?",
+  "@recordingMergeQuestion": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeWarning": "History will show one recording. You can split it back into parts in its details.",
+  "recordingGroupSplit": "Split into {count} recordings",
+  "@recordingGroupSplit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingGroupSplitWarning": "Each part will appear as a separate recording in history.",
+  "recordingGroupDeleteWarning": "Tracks and original files for all {count} parts will be deleted from this phone. Garage and route statistics and best laps will be kept.",
+  "@recordingGroupDeleteWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingGroupParts": "Merged recordings",
+  "recordingGroupPart": "Part {count}",
+  "@recordingGroupPart": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "freeRecContinue": "Continue",
+  "freeRecSessionErrorDetails": "Recording action failed: {error}",
+  "@freeRecSessionErrorDetails": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shareImageTitle": "Share image",
+  "shareImageRegion": "Region",
+  "shareImagePrivacy": "This image includes the map and route location. Before sharing, check that there are no places near the start or finish you want to keep private.",
+  "shareImageDownload": "Download image",
+  "shareImageSaved": "Saved to gallery",
+  "shareImageMapFailed": "Unable to load the map. The image shows the route only.",
+  "shareImageDisclaimer": "Data estimated by phone GPS, for reference only",
+  "shareImageGenerating": "Generating image…",
+  "shareImageLoadError": "Unable to load the recording. Go back and try again.",
+  "shareImageExport": "Export",
+  "shareImageTimingFile": "Timing result files",
+  "shareImageTheory": "Theoretical best lap",
+  "shareImageTheoryRun": "Theoretical best run",
+  "shareImageLength": "Route length",
+  "shareImageCircuit": "Circuit timing",
+  "shareImageSegment": "Segment timing",
+  "routeCreateGps": "Capture with GPS",
+  "routeCreateMap": "Create on map",
+  "routeMapCreateTitle": "Create route on map",
+  "routeMapNameHint": "Enter route name",
+  "routeMapPending": "Not placed",
+  "routeMapPlace": "Place on map",
+  "routeMapNeedsSegmentEndpoints": "Place the start and finish first",
+  "routeMapNeedsCircuitEndpoint": "Place the start/finish line first",
+  "routeMapNavigatePick": "Pan and zoom the map, then tap to place a line",
+  "routeMapReverse": "Reverse",
+  "routeMapNormal": "Map",
+  "routeMapSatellite": "Satellite",
+  "routeMapLengthAuto": "Measured automatically after the first timing session",
+  "routeMapStartFinish": "Start/finish line",
+  "shareImagePost": "4:5 Post",
+  "shareImageStory": "9:16 Story",
+  "shareImagePortrait": "9:16 Portrait",
+  "shareImageMapGestures": "Drag to move; pinch to zoom and rotate",
+  "shareImageResetView": "⟲ Reset view",
+  "shareImageNorth": "N",
+  "recordingMergeEntry": "Merge recordings",
+  "recordingMergeCircuitOnly": "Circuit recordings cannot merge with free or segment recordings",
+  "recordingMergeSameCircuit": "Circuit recordings can only merge with the same circuit",
+  "recordingMergeVersion": "Different route version (v{actual}); reapply v{expected} first",
+  "@recordingMergeVersion": {
+    "placeholders": {
+      "actual": {
+        "type": "int"
+      },
+      "expected": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeCircuitHint": "Circuit selected: choose finished recordings of {route} (v{version}) with the same vehicle.",
+  "@recordingMergeCircuitHint": {
+    "placeholders": {
+      "route": {
+        "type": "String"
+      },
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeFreeHint": "Free or segment selected: choose finished free or segment recordings with the same vehicle.",
+  "recordingMergeFreeCount": "{count} free recordings",
+  "@recordingMergeFreeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeSegmentCount": "{count} segment recordings",
+  "@recordingMergeSegmentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeCircuitCount": "{count} circuit recordings",
+  "@recordingMergeCircuitCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeTimingCount": "{count} timing recordings",
+  "@recordingMergeTimingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeCountSeparator": ", ",
+  "recordingSegmentTitle": "Segment recording",
+  "recordingPartLaps": "Part {count} laps",
+  "@recordingPartLaps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingSegmentResults": "Segment results",
+  "recordingSegmentSummary": "Best run · {count} valid runs",
+  "@recordingSegmentSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingTheoreticalBestLap": "Theoretical best lap",
+  "updateCheck": "Check for updates",
+  "updateChecking": "Checking for updates",
+  "updateUpToDate": "Up to date",
+  "updateCheckFailed": "Unable to check. Check your connection.",
+  "updateRecordingDisabled": "Updates unavailable while recording",
+  "updateAvailable": "New version {version}",
+  "updateDownloading": "Downloading {version}",
+  "updateCurrentVersion": "Current version {version} · File {size} MB",
+  "updatePermissionTitle": "Allow app installation",
+  "updatePermissionBody": "Download complete. System settings are open. Allow RoadScope to install apps, then return here and tap “Update” again.",
+  "updateDownloadFailed": "Download failed",
+  "updateDownloadFailedBody": "Unable to download the update. Check your connection and try again.",
+  "updateInvalidTitle": "File verification failed",
+  "updateInvalidBody": "The download does not match the release. It was deleted and was not installed.",
+  "updateInvalidHelp": "Try again later. Please report this if it continues.",
+  "updateLater": "Later",
+  "updateAction": "Update",
+  "updateRetry": "Retry",
+  "updateRedownload": "Download again",
+  "@updateAvailable": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@updateDownloading": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@updateCurrentVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "routeEditCourse": "Edit course",
+  "routeBrowseRecords": "Browse records",
+  "routeNoRecords": "No recordings",
+  "routeRecordCount": "{count} recordings",
+  "routeCreateSegmentHint": "From start to finish, timing each run",
+  "routeCreateCircuitHint": "One start/finish line, timing each lap",
+  "vehicleBrand": "Brand",
+  "vehicleModel": "Model",
+  "vehicleDisplacement": "Displacement (cc)",
+  "vehicleDisplacementInvalid": "Enter an integer between 1 and 20000",
+  "vehicleNicknameHint": "Without a nickname, the garage and recordings show “Brand Model”.",
+  "vehicleEdit": "Edit",
+  "garageFreeRecords": "Free recordings",
+  "garageTimingRecords": "Track/segment recordings",
+  "garageRecordedDistance": "Recorded distance",
+  "garageMaxSpeed": "All-time top speed",
+  "garageLongestRecording": "Longest recording",
+  "garageLongRecords": "100 km or more",
+  "garageRecordUnit": "rec.",
+  "routeRecordsLap": "Lap {number}",
+  "@routeRecordsLap": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsTrip": "Run {number}",
+  "@routeRecordsTrip": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsLaps": "{count} laps",
+  "@routeRecordsLaps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsTrips": "{count} runs",
+  "@routeRecordsTrips": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsSectorCount": "{count} sectors",
+  "@routeRecordsSectorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsFastestLap": "Fastest lap",
+  "routeRecordsFastestTrip": "Fastest run",
+  "routeRecordsTheoretical": "Theoretical best lap",
+  "routeRecordsTheoreticalTrip": "Theoretical best run",
+  "routeRecordsSources": "Sector sources",
+  "routeRecordsList": "Records",
+  "routeRecordsEmpty": "This route version has no records yet. Select this route and start timing to see records here.",
+  "routeRecordsNoTrack": "No lap to draw yet",
+  "routeRecordsNoTrackTrip": "No run to draw yet",
+  "routeRecordsNoVehicle": "No vehicle selected",
+  "routeRecordsVersionNote": "Only records for route v{version} and the current algorithm version are shown. Older versions are excluded.",
+  "@routeRecordsVersionNote": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "uploadProbeTitle": "Background upload probe",
+  "uploadProbeUrl": "Receiver URL",
+  "uploadProbeSwitch": "Send every second while recording",
+  "uploadProbeCounts": "Sent {sent} · Dropped {dropped} · Reconnects {reconnects}",
+  "uploadProbeConnection": "Connection: {state}",
+  "uploadProbeError": "Last error: {error}",
+  "uploadProbeOff": "Off",
+  "uploadProbeWaiting": "Waiting for recording",
+  "uploadProbeConnecting": "Connecting",
+  "uploadProbeConnected": "Connected",
+  "uploadProbeReconnecting": "Reconnecting",
+  "uploadProbeInvalidUrl": "Enter a valid ws:// or wss:// URL",
+  "uploadProbeStatusFailed": "Status read or send failed",
+  "uploadProbeConnectFailed": "Connection failed",
+  "uploadProbeClosed": "Connection closed",
+  "@uploadProbeCounts": {
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "dropped": {
+        "type": "int"
+      },
+      "reconnects": {
+        "type": "int"
+      }
+    }
+  },
+  "@uploadProbeConnection": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "@uploadProbeError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "accountTitle": "Account",
+  "accountEmail": "Email",
+  "accountOfflineNotice": "Only teams need an account. Recording, timing, history, garage and tracks work without signing in or a network connection.",
+  "accountEmailHint": "We will email a 6-digit verification code. No password needed.",
+  "accountSendCode": "Send verification code",
+  "accountFeatures": "Features that need an account",
+  "accountTeams": "Teams",
+  "accountCloudBackup": "Cloud backup",
+  "accountComingSoon": "Not available yet",
+  "accountLoginRequired": "Sign in to use",
+  "accountAvatar": "Avatar",
+  "accountChange": "Change",
+  "accountNickname": "Nickname",
+  "accountTeamService": "Team service",
+  "accountConnected": "Connected",
+  "accountDisconnected": "Unable to connect",
+  "accountUnavailable": "—",
+  "accountTeamCount": "{count} teams",
+  "accountLocalNotice": "Recordings and timing data stay on this phone and work when signed out or offline. Your avatar also stays here; a thumbnail is uploaded to each team when you create or join it.",
+  "accountSignOut": "Sign out",
+  "accountDelete": "Delete account",
+  "accountDeleteTitle": "Delete your account?",
+  "accountDeleteExplanation": "This cannot be undone. Your server account, memberships and avatars will be deleted. If you are captain, the role automatically passes to the longest-standing member; a team with no other members is dissolved. Local recordings and timing data are kept.",
+  "accountDeleteConfirm": "Confirm deletion",
+  "accountCancel": "Cancel",
+  "accountOtpTitle": "Enter verification code",
+  "accountOtpSent": "A code was sent to {email}. It is valid for 10 minutes.",
+  "accountResendCountdown": "No email? Check spam, or resend in {seconds} seconds.",
+  "accountResend": "Resend code",
+  "accountChangeEmail": "Use another email",
+  "accountLogin": "Sign in",
+  "accountOtpDigit": "Verification code digit {digit}",
+  "accountNicknameTitle": "Set nickname",
+  "accountNicknameHint": "Teammates see this name on the map, never your email. You can change it later in Account.",
+  "accountNicknameLabel": "Nickname (1–16 characters)",
+  "accountDone": "Done",
+  "accountChoosePhoto": "Choose from library",
+  "accountTakePhoto": "Take photo",
+  "accountRemoveAvatar": "Remove avatar",
+  "accountAvatarPreview": "Map and member list preview",
+  "accountWithAvatar": "With avatar",
+  "accountWithoutAvatar": "Without avatar",
+  "accountAvatarRingHint": "The ring uses the color selected when going online. Without an avatar, the first character of your nickname is shown.",
+  "accountAvatarNotice": "Photos are cropped to a square and saved at 256 × 256. Your avatar stays on this phone; a thumbnail is uploaded when creating or joining a team. Changing it updates every team you belong to. The server copy is deleted when you leave or the team is dissolved.",
+  "accountAvatarFailed": "Unable to process this photo. Check photo or camera permissions, or choose another photo.",
+  "accountInvalidEmail": "Enter a valid email address.",
+  "accountRateLimited": "Too many attempts. Please try again later.",
+  "accountOtpExpired": "This code has expired. Request a new one.",
+  "accountOtpInvalid": "Incorrect code. Please try again.",
+  "accountInvalidInput": "Enter a nickname of 1–16 characters.",
+  "accountRequestFailed": "Unable to connect. Please try again later. Local recording and timing are unaffected.",
+  "@accountTeamCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountOtpSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountResendCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountOtpDigit": {
+    "placeholders": {
+      "digit": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsTitle": "Teams",
+  "teamsJoin": "Join a team",
+  "teamsCreate": "Create a team",
+  "teamsPrivacy": "Joining a team does not share your location. Start a free recording and tap Go online to share.",
+  "teamsLimit": "You can join up to 20 teams.",
+  "teamsName": "Team name",
+  "teamsRename": "Rename",
+  "teamsMembers": "Members · {count}",
+  "@teamsMembers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsCount": "{count} members",
+  "@teamsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsPendingCount": "{count} pending approval",
+  "@teamsPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsLastOnline": "Last online {time}",
+  "@teamsLastOnline": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsNeverOnline": "No sharing history",
+  "teamsWaiting": "Awaiting approval · expires in {hours} hours",
+  "@teamsWaiting": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsRejected": "Request declined",
+  "teamsScanHint": "Point the camera at the captain’s QR code",
+  "teamsCodeLabel": "Or enter the 8-character invite code",
+  "teamsCodeHint": "Case insensitive. Invite codes are valid for 24 hours.",
+  "teamsCameraDenied": "Camera unavailable. Enter an invite code to join.",
+  "teamsInvalidCode": "Enter 8 characters, excluding 0/O and 1/I/L.",
+  "teamsRateLimited": "Too many attempts. Try again in {seconds} seconds.",
+  "@teamsRateLimited": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsRateExplanation": "Too many incorrect codes from the same account or network temporarily prevents joining.",
+  "teamsInviteExpired": "This invite has expired. Ask the captain for a new code.",
+  "teamsFull": "The team is full. Remove a member before approving.",
+  "teamsRequestsFull": "This team cannot accept more requests right now.",
+  "teamsFailed": "Team service unavailable. Please try again later.",
+  "teamsInvalidName": "Use 1–24 characters with no leading or trailing spaces.",
+  "teamsInvite": "Invite teammates",
+  "teamsGenerate": "Generate invite code",
+  "teamsRegenerate": "Regenerate",
+  "teamsRegenerateWarning": "Generating a new code immediately invalidates the old code.",
+  "teamsCopy": "Copy",
+  "teamsCopied": "Invite code copied",
+  "teamsValidUntil": "Valid until {time}",
+  "@teamsValidUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsCaptain": "Captain",
+  "teamsMember": "Member",
+  "teamsYou": "{name} (you)",
+  "@teamsYou": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsUnnamed": "No nickname",
+  "teamsJoinedAt": "Joined {time}",
+  "@teamsJoinedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsMemberActions": "Actions for {name}",
+  "@teamsMemberActions": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsTransfer": "Transfer captaincy",
+  "teamsRemove": "Remove member",
+  "teamsRemoveWarning": "Remove {name}?",
+  "@teamsRemoveWarning": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsCacheTitle": "Server cache",
+  "teamsCacheExplanation": "After 12 hours without an active sharing session, the server clears avatars and invite codes but keeps memberships. Your phone restores cached avatars when you next go online as captain.",
+  "teamsCacheExpired": "Waiting for the captain to go online",
+  "teamsCacheExpiredExplanation": "The server cache was cleared. Avatars and invites have expired. The captain can restore the cache by going online. Members can still share their location.",
+  "teamsCaptainInviteOnly": "Only the captain can generate invite codes.",
+  "teamsLeave": "Leave team",
+  "teamsLeaveWarning": "Leave this team? If you are the only member, this dissolves the team.",
+  "teamsDissolve": "Dissolve team",
+  "teamsDissolveWarning": "Dissolve this team? All members will be removed immediately.",
+  "teamsDissolveAgain": "Confirm dissolution again. This cannot be undone.",
+  "teamsTransferFirst": "Transfer captaincy before leaving",
+  "teamsTransferExplanation": "Choose a new captain. You become a regular member and then leave. If you are alone, leaving dissolves the team.",
+  "teamsTransferLeave": "Transfer and leave",
+  "teamsApproval": "Approval required to join",
+  "teamsApprovalHint": "New applicants must wait for your approval after scanning or entering a code.",
+  "teamsPendingTitle": "Pending · {count}",
+  "@teamsPendingTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsApprove": "Approve",
+  "teamsReject": "Decline",
+  "teamsPendingExplanation": "Pending applicants are not members, cannot see locations and do not occupy places. If the team is full, remove a member before approving.",
+  "teamsRequestSent": "Join request sent",
+  "teamsRequestTeam": "{team} · Captain {captain}",
+  "@teamsRequestTeam": {
+    "placeholders": {
+      "team": {
+        "type": "String"
+      },
+      "captain": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsRequestExplanation": "You become a member after captain approval. Until then, neither side can see the other’s location. Requests expire after 24 hours. Open Teams to see the result.",
+  "teamsCancelRequest": "Cancel request",
+  "teamsRequestEnded": "This request has ended. Return to Teams to see the result.",
+  "sharingStarting": "Going online…",
+  "sharingOnline": "Online",
+  "sharingReconnecting": "Reconnecting",
+  "sharingOffline": "Offline",
+  "sharingRecordingUnaffected": "Recording continues. Sharing resumes when connected.",
+  "sharingCounts": "{online} sharing · {offline} offline",
+  "@sharingCounts": {
+    "placeholders": {
+      "online": {
+        "type": "int"
+      },
+      "offline": {
+        "type": "int"
+      }
+    }
+  },
+  "sharingOfflineHint": "Go online to share your location with teammates",
+  "sharingUnavailable": "Team service unavailable. Recording continues.",
+  "sharingGoOnline": "Go online",
+  "sharingGoOffline": "Go offline",
+  "sharingNoTeams": "Join or create a team in the Teams tab first.",
+  "sharingChooseColor": "Choose a marker color",
+  "sharingColorNames": "Red|Orange|Yellow|Lime|Green|Mint|Cyan|Sky blue|Blue|Indigo|Purple|Pink|Magenta|Brown|White|Gray",
+  "sharingColorHint": "Dimmed colors are taken. Your last color is selected next time.",
+  "sharingColorTaken": "A teammate just took that color. Choose another color.",
+  "sharingUnnamed": "Teammate",
+  "sharingSecondsAgo": "{seconds}s ago",
+  "@sharingSecondsAgo": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "sharingDistance": "{distance} km from me (straight line)",
+  "@sharingDistance": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "sharingDistanceUnknown": "Distance unavailable (waiting for location)",
+  "sharingUpdateSpeed": "Updated {seconds}s ago · {speed} km/h",
+  "@sharingUpdateSpeed": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      },
+      "speed": {
+        "type": "String"
+      }
+    }
+  },
+  "sharingWholeTeam": "Whole team",
+  "accountPlan": "Plan",
+  "accountPlanFree": "Free",
+  "accountPlanPro": "Pro",
+  "accountPlanExpired": "Pro expired",
+  "accountPlanFreeDescription": "Pro removes ads and raises the team online limit to 16 members.",
+  "accountPlanPurchaseLater": "Purchases will be available in the next version",
+  "accountPlanExpires": "Expires: {date}",
+  "accountPlanNoExpiry": "No expiry date",
+  "accountPlanExpiredDescription": "Ads are back. Teams you captain can have up to 4 members online.",
+  "teamsOnlineLimit": "Online at once {count} / {limit}",
+  "teamsOnlineLimitExplanation": "A free captain allows up to 4 people online at once; a Pro captain allows up to 16. Every team can have up to 16 members.",
+  "sharingOnlineLimitReached": "Online limit reached",
+  "sharingOnlineLimitReachedCount": "Online limit reached ({count}/{limit})",
+  "sharingOnlineLimitExplanation": "The captain can upgrade to Pro for up to 16 people online at once. Recording continues. Go online manually when a spot is available.",
+  "sharingOnlineLimitGotIt": "Got it",
+  "@teamsOnlineLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "@sharingOnlineLimitReachedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "backupTitle": "Cloud backup",
+  "backupNever": "Never backed up",
+  "backupDescription": "Back up to your own Google Drive. No RoadScope account is needed. Backups start manually and keep existing cloud data.",
+  "backupConnect": "Connect Google Drive",
+  "backupGoogleAccount": "Google account",
+  "backupDeviceFolder": "Folder for this phone",
+  "backupLast": "Last backup",
+  "backupPending": "Pending backup",
+  "backupRefresh": "Refresh",
+  "backupNow": "Back up now",
+  "backupRestore": "Restore from cloud",
+  "backupDisconnect": "Disconnect Google",
+  "backupFolderName": "Name the folder",
+  "backupFolderNameHint": "Enter a name of 1–64 characters",
+  "backupConfirm": "Confirm backup",
+  "backupSummary": "{records} recordings · {photos} photos · {size} MB",
+  "backupCellularWarning": "You are using mobile data. Backup may incur data charges.",
+  "backupRunning": "Backing up",
+  "backupRestoring": "Restoring",
+  "backupComplete": "Backup complete",
+  "backupRestoreComplete": "Restore complete",
+  "backupRecordProgress": "{done} / {total} recordings",
+  "backupEta": "About {seconds} seconds remaining",
+  "backupEstimating": "Estimating time remaining…",
+  "backupStayInApp": "Please stay in the app during backup and restore",
+  "backupStop": "Stop backup",
+  "backupStopRestore": "Stop restore",
+  "backupStopped": "Backup or restore stopped",
+  "backupDone": "Done",
+  "backupChooseDevice": "Choose a device folder",
+  "backupThisPhone": "This phone",
+  "backupNoFolders": "No device folders in the cloud yet",
+  "backupRestoreMerge": "Only missing data is added. Existing data and settings on this phone are preserved.",
+  "backupRestoreScope": "Choose what to restore",
+  "backupRestoreAll": "Restore everything",
+  "backupRestoreStatistics": "Only routes, garage, settings and statistics",
+  "backupFutureDestination": "Where should future backups go?",
+  "backupContinueFolder": "Continue backing up to this folder",
+  "backupNewFolder": "Create a new folder",
+  "backupStartRestore": "Start restore",
+  "backupTakenOver": "Folder taken over",
+  "backupTakenOverDescription": "Another phone now uses this folder for backups. Create a new folder for this phone.",
+  "backupDeleteUnprotected": "This recording has not been backed up and cannot be recovered after deletion.",
+  "backupDeleteProtected": "The cloud backup is kept. To remove it, delete it yourself in Google Drive.",
+  "backupErrorNotConfigured": "Google backup is not configured in this build.",
+  "backupErrorAuthorization": "Google authorization has expired. Please reconnect.",
+  "backupErrorStorage": "Google Drive storage is full.",
+  "backupErrorNetwork": "The network connection was interrupted. Please try again.",
+  "backupErrorVersion": "This backup uses a newer version. Update the app first.",
+  "backupErrorInvalid": "The backup is incomplete or invalid.",
+  "backupErrorBusy": "A backup or restore is already running.",
+  "backupErrorPlatform": "Unable to start or maintain the backup service.",
+  "backupErrorDrive": "Unable to access Google Drive.",
+  "languageJapanese": "日本語",
+  "languageGerman": "Deutsch",
+  "languageFrench": "Français",
+  "languageItalian": "Italiano"
+}

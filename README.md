@@ -13,10 +13,13 @@ App 本身的程式碼不在這裡。
 | 語言 | 狀態 |
 |---|---|
 | 繁體中文 | 範本（以 App 主程式為準） |
-| English | 校對中 |
-| 日本語、Deutsch、Français、Italiano | 尚未加入 |
+| English | 校對中（`translations/app_en.arb`） |
+| 日本語 | 機器初稿，待母語者校對（`translations/app_ja.arb`） |
+| Deutsch | 機器初稿，待母語者校對（`translations/app_de.arb`） |
+| Français | 機器初稿，待母語者校對（`translations/app_fr.arb`） |
+| Italiano | 機器初稿，待母語者校對（`translations/app_it.arb`） |
 
-翻譯檔與格式說明會由 App 主程式的同步腳本放進來，加入後這張表會更新。
+翻譯檔在 [`translations/`](translations/)，資料格式說明在 [`formats/`](formats/)，由 App 主程式的同步腳本放進來。
 
 ## 想幫忙？
 

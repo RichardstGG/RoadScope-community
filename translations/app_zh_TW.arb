@@ -1,0 +1,2050 @@
+{
+  "whatsNewTitle": "已更新到 {version}",
+  "@whatsNewTitle": {
+    "description": "Updated to {version}",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "whatsNewSubtitle": "這一版的更新內容",
+  "whatsNewClose": "知道了",
+  "freeRecHideSpeed": "長按以隱藏時速",
+  "freeRecRestoreSpeed": "長按以恢復時速顯示",
+  "freeRecSpeedVisible": "目前顯示時速，長按以隱藏時速。",
+  "freeRecSpeedHidden": "目前已隱藏時速，長按以恢復時速顯示。",
+  "@@locale": "zh_TW",
+  "debug": "Debug",
+  "settings": "設定",
+  "routes": "賽道",
+  "history": "歷史紀錄",
+  "home": "首頁",
+  "timing": "計時",
+  "freeRecording": "自由紀錄",
+  "freeRecWaitingLocation": "等待定位",
+  "freeRecMode": "自由紀錄",
+  "freeRecLast": "上一次自由紀錄",
+  "freeRecStart": "開始自由紀錄",
+  "freeRecRecording": "紀錄中",
+  "freeRecElapsed": "經過時間",
+  "freeRecTotalElapsed": "總經過時間",
+  "freeRecMoving": "移動時間",
+  "freeRecDistance": "距離",
+  "freeRecAverage": "平均",
+  "freeRecAverageMoving": "平均速度（移動中）",
+  "freeRecMaxSpeed": "最高速度（GPS）",
+  "freeRecGaps": "資料中斷",
+  "freeRecCurrentSpeed": "目前速度",
+  "freeRecStarted": "開始於",
+  "freeRecFinish": "結束紀錄",
+  "freeRecComplete": "紀錄完成",
+  "freeRecShare": "分享",
+  "freeRecEstimate": "距離與速度由 GPS 估算，只供參考；資料中斷的區間不計入。",
+  "freeRecApply": "套用路線",
+  "freeRecDone": "完成",
+  "freeRecChoose": "選擇紀錄方式",
+  "freeRecFixed": "固定路段",
+  "freeRecFixedNote": "路段或賽道計時，穿過計時線自動計時；需要先選路線",
+  "freeRecFreeNote": "不需要路線，記錄整趟行程",
+  "freeRecReturn": "回到自由紀錄",
+  "freeRecBusy": "自由紀錄進行中，請先結束目前的紀錄。",
+  "freeRecTimingBusy": "計時進行中，請先結束目前的紀錄。",
+  "freeRecBanner": "自由紀錄中 · {elapsed}",
+  "@freeRecBanner": {
+    "description": "Free recording · {elapsed}",
+    "placeholders": {
+      "elapsed": {
+        "type": "String"
+      }
+    }
+  },
+  "freeRecGapCount": "{count} 次",
+  "@freeRecGapCount": {
+    "description": "{count} gaps",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "freeRecGapSummary": "{count} 次 · {seconds} s",
+  "@freeRecGapSummary": {
+    "description": "{count} gaps · {seconds} s",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "freeRecLoadError": "無法讀取紀錄，請重試。",
+  "freeRecActionError": "操作未完成，請重試。",
+  "freeRecSessionError": "紀錄狀態異常，請檢查定位與紀錄狀態後重試。",
+  "noRoutes": "尚無路線，請先建立路線。",
+  "createRoute": "建立路線",
+  "startRecording": "開始紀錄",
+  "cancel": "取消",
+  "confirm": "確認",
+  "historyTrips": "歷史行程",
+  "refresh": "重新整理",
+  "retry": "重試",
+  "noLocalTrips": "尚無本機行程",
+  "noTimingResults": "未選路線／尚無計時結果",
+  "deleteTripQuestion": "刪除行程？",
+  "deleteTripWarning": "會從這支手機刪除軌跡與原始檔，車庫與路線的統計、最佳圈會保留",
+  "exportGpx": "匯出 GPX",
+  "exportTiming": "匯出計時資料",
+  "tripDetails": "行程詳情",
+  "notProvided": "未提供",
+  "viewTimingDetails": "查看各趟／圈、分段與 reasonCode",
+  "exportRequiresClosedFiles": "匯出需已停止並關閉原生檔案；錄製中或中斷後尚未結束的行程會被拒絕。",
+  "deleteTrip": "刪除行程",
+  "retryDelete": "重試刪除",
+  "loading": "讀取中",
+  "unavailable": "無法取得",
+  "allowed": "已允許",
+  "notAllowed": "未允許",
+  "speedUnit": "速度單位",
+  "storageUsage": "儲存用量",
+  "permissionStatus": "權限狀態",
+  "openAppSettings": "開啟 App 權限設定",
+  "p0Diagnostics": "P0 定位診斷與匯出",
+  "versionInfo": "版本資訊",
+  "versionUnavailable": "版本號無法取得",
+  "recording": "記錄中",
+  "stopping": "停止中，正在保存並關閉檔案",
+  "resuming": "正在恢復記錄",
+  "interrupted": "記錄已中斷",
+  "waitingPermission": "等待定位授權",
+  "recordingError": "記錄錯誤",
+  "idle": "未記錄",
+  "invalidOrMissing": "無效／未提供",
+  "notAvailable": "無法取得（not available）",
+  "unknown": "未知（unknown）",
+  "vendorXiaomi": "請在小米系統設定中允許自啟動，並將電池用量設為無限制。自啟動是廠商私有設定，App 無法可靠讀取是否已開啟。",
+  "vendorOppo": "請允許自動啟動／關聯啟動，並將電池用量設為允許背景活動。這些廠商設定無法由 App 可靠讀取。",
+  "vendorVivo": "請在背景耗電管理與自啟動管理中允許 RoadScope。這些廠商設定無法由 App 可靠讀取。",
+  "vendorHuawei": "請在應用程式啟動管理中改為手動管理，允許自動啟動與背景執行。這些廠商設定無法由 App 可靠讀取。",
+  "vendorOther": "請確認系統允許 RoadScope 在背景執行。",
+  "androidBackgroundSetup": "Android 背景執行準備",
+  "manufacturer": "裝置廠牌",
+  "notificationPermission": "常駐通知權限",
+  "batteryOptimization": "電池最佳化",
+  "batteryExcluded": "已排除",
+  "batteryRestricted": "仍受限制",
+  "backgroundSetupWarning": "長時間測試前請完成下列設定。通知被拒絕不會阻止開始記錄，但使用者看不到常駐通知，背景採集證據也會缺少重要條件。",
+  "openBatterySettings": "開啟電池最佳化設定",
+  "backgroundSetupReturn": "返回 RoadScope 後會重新讀取公開狀態；廠商自啟動開關仍需人工確認。",
+  "telemetryHeading": "診斷 telemetry（非 location-log v1）",
+  "noTelemetry": "尚無 telemetry 紀錄；開始記錄後才會寫入。",
+  "batteryLevel": "電量",
+  "chargingState": "充電狀態",
+  "charging": "充電中",
+  "notCharging": "未充電",
+  "powerSource": "電源來源",
+  "powerAc": "市電",
+  "powerWireless": "無線充電",
+  "powerDock": "底座",
+  "powerNone": "未接外部電源",
+  "powerSave": "省電模式",
+  "on": "開啟",
+  "off": "關閉",
+  "appState": "App 狀態",
+  "foreground": "前景",
+  "inactive": "前景但未接受輸入",
+  "background": "背景",
+  "screenInteractive": "螢幕可互動",
+  "yes": "是",
+  "no": "否",
+  "keyguardState": "keyguard 狀態",
+  "locked": "已上鎖",
+  "unlocked": "未上鎖",
+  "protectedData": "iOS 保護資料可用",
+  "available": "可用",
+  "notUsable": "不可用",
+  "screenStateSource": "螢幕狀態來源",
+  "locationServiceState": "定位服務狀態",
+  "started": "已啟動",
+  "stopped": "已停止",
+  "restarted": "已重建",
+  "failed": "失敗",
+  "locationServiceDetail": "定位服務說明",
+  "restartCount": "程序重啟次數",
+  "resumeReason": "恢復原因",
+  "notResumed": "本次非恢復",
+  "processRestart": "程序重啟",
+  "crashResume": "崩潰後恢復",
+  "bootResume": "重開機後恢復",
+  "telemetryUtc": "telemetry 時間（UTC）",
+  "telemetryMonotonic": "telemetry 單調時間",
+  "lastLocationSequence": "對應的最後定位序號",
+  "trigger": "觸發原因",
+  "startNativeRecording": "開始記錄",
+  "resumeNativeRecording": "續錄",
+  "stopNativeRecording": "停止記錄",
+  "abruptEnd": "上一段非正常結束",
+  "locationServiceChange": "定位服務變化",
+  "taskRemoved": "近期工作清單已移除",
+  "stateChange": "狀態改變",
+  "heartbeat": "定期回報",
+  "telemetryCount": "telemetry 筆數／壞行",
+  "unavailableFields": "無法取得的欄位",
+  "telemetryExportable": "telemetry 可匯出",
+  "exportable": "可匯出",
+  "notExportable": "目前不可匯出",
+  "telemetryDisclaimer": "telemetry 是事後判讀用的診斷資訊，不證明背景採集穩定。",
+  "locationDiagnostics": "RoadScope 定位診斷",
+  "interruptedRecordingNote": "上一段原生採集已停止。你可以接續同一筆記錄，或結束後匯出；App 不會只因重新開啟或裝置重開機就自動恢復定位。",
+  "locationStatus": "定位狀態",
+  "freshLocation": "有新定位",
+  "staleLocation": "無新定位／樣本已過期",
+  "sampleAge": "樣本年齡",
+  "noData": "尚無資料",
+  "secondsUnit": "秒",
+  "sampleUtc": "樣本時間（UTC）",
+  "noSamples": "尚無樣本",
+  "sampleInterval": "樣本間隔",
+  "utcIntervalWarning": "間隔以測量 UTC 推算，可能受校時影響。",
+  "horizontalAccuracy": "水平精度",
+  "metersUnit": "公尺",
+  "speedAccuracy": "速度精度",
+  "metersPerSecondUnit": "公尺／秒",
+  "sampleCount": "累計樣本",
+  "eventsWarnings": "事件／警告",
+  "diagnosticVersion": "診斷版 0.0.2+2 · location-log v1",
+  "liveSummaryDisclaimer": "即時小摘要僅涵蓋最近已保存資料；完整驗證請使用停止後的匯出檔。",
+  "stopTimeout": "停止超時，仍在等待寫入完成；尚不可匯出或開始新記錄。",
+  "resumeSameRecording": "繼續同一次記錄",
+  "finishRecording": "結束這次記錄",
+  "locationShareWarning": "RoadScope location-log v1 定位紀錄；包含精確位置，請只分享給信任的接收者。",
+  "exportLocationLog": "匯出 location-log v1",
+  "telemetryShareNote": "RoadScope diagnostics telemetry；裝置與 App 狀態診斷，不含位置資料。",
+  "exportTelemetry": "匯出 diagnostics telemetry",
+  "exportSeparateFiles": "請先停止記錄再匯出。兩個檔案分開匯出：location-log v1 含精確位置，diagnostics telemetry 只含裝置與 App 狀態。",
+  "language": "語言",
+  "languageSystem": "跟隨系統",
+  "languageTraditionalChinese": "繁體中文",
+  "languageEnglish": "English",
+  "historyLoadError": "讀取歷史失敗：{error}",
+  "@historyLoadError": {
+    "description": "Could not load history: {error}",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "recordingStatus": "狀態：{status}",
+  "@recordingStatus": {
+    "description": "Status: {status}",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "historyResultSummary": "{route} · v{version} · 最佳有效時間 {time}\nvalidity：{validity}",
+  "@historyResultSummary": {
+    "description": "{route} · v{version} · Best valid time {time} Validity: {validity}",
+    "placeholders": {
+      "route": {
+        "type": "String"
+      },
+      "version": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      },
+      "validity": {
+        "type": "String"
+      }
+    }
+  },
+  "positionWarning": "檔案含精確位置，只分享給信任的對象",
+  "tripDate": "日期：{date}",
+  "@tripDate": {
+    "description": "Date: {date}",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "tripEnd": "結束：{date}",
+  "@tripEnd": {
+    "description": "Ended: {date}",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "recordingId": "記錄 ID：{id}",
+  "@recordingId": {
+    "description": "Recording ID: {id}",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "routeSnapshot": "路線快照：{name} · {id} · v{version}",
+  "@routeSnapshot": {
+    "description": "Course snapshot: {name} · {id} · v{version}",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "id": {
+        "type": "String"
+      },
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "bestValidTime": "最佳有效時間：{time}",
+  "@bestValidTime": {
+    "description": "Best valid time: {time}",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "algorithmVersion": "演算法：{version}",
+  "@algorithmVersion": {
+    "description": "Algorithm: {version}",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "storageBytes": "已關閉原生檔案：{native} bytes\n資料庫（含 WAL／SHM）：{database} bytes\n合計：{total} bytes",
+  "@storageBytes": {
+    "description": "Closed native files: {native} bytes Database (including WAL/SHM): {database} bytes Total: {total} bytes",
+    "placeholders": {
+      "native": {
+        "type": "int"
+      },
+      "database": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "storageIncomplete": "\n部分行程尚未閉檔或無法讀取，以上非完整用量：\n{details}",
+  "@storageIncomplete": {
+    "description": "Some trips are not closed or cannot be read. Usage is incomplete: {details}",
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "permissionsSummary": "定位授權：{location}\n{accuracy}\n通知：{notification}\n電池最佳化排除：{battery}",
+  "@permissionsSummary": {
+    "description": "Location permission: {location} {accuracy} Notifications: {notification} Battery optimization excluded: {battery}",
+    "placeholders": {
+      "location": {
+        "type": "String"
+      },
+      "accuracy": {
+        "type": "String"
+      },
+      "notification": {
+        "type": "String"
+      },
+      "battery": {
+        "type": "String"
+      }
+    }
+  },
+  "appVersion": "RoadScope · {version}\nlocation-log v1",
+  "@appVersion": {
+    "description": "RoadScope · {version} location-log v1",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "unknownValue": "{value}（未知值）",
+  "@unknownValue": {
+    "description": "{value} (unknown value)",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "historyNotValidated": "{count}／未執行歷史驗證",
+  "@historyNotValidated": {
+    "description": "{count} / history not validated",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "interruptedTelemetry": "上一段記錄沒有自己收尾（程序被終止、崩潰或斷電）。定位紀錄寫到序號 {sequence} 為止。",
+  "@interruptedTelemetry": {
+    "description": "The previous recording did not close normally (process killed, crash or power loss). Location data was written through sequence {sequence}.",
+    "placeholders": {
+      "sequence": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticDetail": "{label}：{value}",
+  "@diagnosticDetail": {
+    "description": "{label}: {value}",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "listSeparator": "、",
+  "settingsGeneral": "一般",
+  "settingsPermissionsData": "權限與資料",
+  "settingsAbout": "關於",
+  "garage": "車庫",
+  "comingSoon": "即將推出",
+  "locationPermission": "定位權限",
+  "diagnosticExport": "診斷匯出",
+  "version": "版本",
+  "timingEngine": "計時引擎",
+  "storagePartial": "部分資料無法取得",
+  "storageSizeBytes": "{bytes} B",
+  "storageSizeKiB": "{size} KiB",
+  "storageSizeMiB": "{size} MiB",
+  "preferenceSaveError": "無法儲存偏好設定：{error}",
+  "permissionPreciseAllowed": "精確位置已允許",
+  "permissionApproximateOnly": "僅約略位置",
+  "permissionAlways": "永遠允許",
+  "permissionWhileUsing": "使用 App 期間允許",
+  "permissionRestricted": "系統限制",
+  "permissionNotRequested": "尚未詢問",
+  "permissionUnknown": "未知",
+  "permissionPrecise": "精確位置",
+  "permissionApproximate": "約略位置",
+  "permissionBackgroundDenied": "未允許（前景服務記錄另依系統規則）",
+  "close": "關閉",
+  "@storageSizeBytes": {
+    "description": "{bytes} B",
+    "placeholders": {
+      "bytes": {
+        "type": "int"
+      }
+    }
+  },
+  "@storageSizeKiB": {
+    "description": "{size} KiB",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@storageSizeMiB": {
+    "description": "{size} MiB",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@preferenceSaveError": {
+    "description": "Could not save preferences: {error}",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSystemCurrent": "跟隨系統（{language}）",
+  "@languageSystemCurrent": {
+    "description": "System default ({language})",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "vehicleCount": "{count} 台",
+  "addVehicle": "新增車輛",
+  "editVehicle": "編輯車輛",
+  "currentVehicle": "目前車輛",
+  "vehicleCategory": "類別（選填）",
+  "vehicleCategoryUncategorized": "未分類",
+  "vehicleCategoryBicycle": "自行車",
+  "vehicleCategoryMotorcycle": "機車",
+  "vehicleCategoryHeavyMotorcycle": "大型重機",
+  "vehicleCategoryCar": "汽車",
+  "vehicleCategoryTruck": "貨車",
+  "vehicleCategoryRacing": "賽車",
+  "vehicleCategoryOther": "其他",
+  "vehicleName": "暱稱（選填）",
+  "vehicleYear": "年份",
+  "vehicleNameRequired": "請輸入暱稱，或填寫廠牌與車型",
+  "vehicleYearInvalid": "請輸入 1900–2100 之間的年份",
+  "vehicleNoRecords": "沒有紀錄",
+  "vehicleRecordCount": "{count} 筆紀錄",
+  "currentVehicleRecords": "目前車輛　·　{records}",
+  "garageEmpty": "還沒有車輛，新增第一台車吧。",
+  "garageHint": "點一下設為目前車輛，點「編輯」修改車輛。開始紀錄時會記下目前車輛。",
+  "pickVehicle": "選擇車輛",
+  "pickVehicleHint": "點一下車輛即套用並返回。點右側箭頭編輯車輛。",
+  "chooseVehiclePhoto": "選擇照片（相簿或相機）",
+  "photoLibrary": "相簿",
+  "photoCamera": "相機",
+  "useVehicleForRecording": "開始紀錄時使用這台車",
+  "vehicleHistoryNote": "已有 {count} 筆紀錄使用這台車。刪除車輛不會刪除紀錄，舊紀錄仍保留當時車名。",
+  "deleteVehicle": "刪除車輛",
+  "deleteVehicleConfirmation": "確定刪除「{name}」？照片會一併刪除，舊紀錄仍保留當時車名。",
+  "garageError": "操作未完成，請重試。{error}",
+  "@vehicleCount": {
+    "description": "{count} vehicles",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@vehicleRecordCount": {
+    "description": "{count} recordings",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@currentVehicleRecords": {
+    "description": "Current vehicle · {records}",
+    "placeholders": {
+      "records": {
+        "type": "String"
+      }
+    }
+  },
+  "@vehicleHistoryNote": {
+    "description": "Used by {count} recordings. Deleting this vehicle keeps recordings and their original vehicle name.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteVehicleConfirmation": {
+    "description": "Delete “{name}”? Its photo will be removed. Existing recordings keep their original vehicle name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@garageError": {
+    "description": "Could not complete the action. Please retry. {error}",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "saveVehicle": "保存",
+  "homeLocationChecking": "正在確認定位狀態",
+  "homeLocationUnknown": "無法確認定位狀態",
+  "homeLocationDisabled": "定位服務已關閉",
+  "homeLocationEnabled": "定位已開啟",
+  "homeLocationPermission": "需要定位權限",
+  "homeAddFirstVehicle": "新增第一台車",
+  "homeVehiclePhoto": "車輛照片",
+  "homeViewAll": "查看全部",
+  "homeVehiclePage": "第 {page} 台，共 {count} 台車",
+  "@homeVehiclePage": {
+    "description": "Vehicle {page} of {count}",
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyHoursMinutes": "{hours} 小時 {minutes} 分",
+  "@historyHoursMinutes": {
+    "description": "{hours} hr {minutes} min",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "historyMinutes": "{minutes} 分",
+  "@historyMinutes": {
+    "description": "{minutes} min",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "historyUnknownPlace": "地點未知",
+  "historyNote": "備註：{note}",
+  "@historyNote": {
+    "description": "Note: {note}",
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "historyInvalidRuns": "含無效成績",
+  "historyIncomplete": "未完成",
+  "historyUntimedRecording": "路線紀錄",
+  "historyCircuit": "賽道計時",
+  "historySegment": "路段紀錄",
+  "historyTitle": "歷史紀錄",
+  "historyFilterAll": "全部",
+  "historyFilterSegment": "路段",
+  "historyFilterCircuit": "賽道",
+  "historyAllVehicles": "全部車輛",
+  "historyVehicleFilter": "篩選車輛",
+  "historyMonth": "{year} 年 {month} 月",
+  "@historyMonth": {
+    "description": "{year}/{month}",
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      }
+    }
+  },
+  "historyShare": "分享",
+  "historyStatTotal": "總時間",
+  "historyStatBestLap": "最佳圈",
+  "historyStatBestRun": "最佳趟",
+  "historyStatValidLaps": "有效圈",
+  "historyStatValidRuns": "有效趟",
+  "historyStatGaps": "資料中斷",
+  "historyPlaceAndNote": "地點與備註",
+  "historyPlaceLabel": "地點（結束時有網路才查詢）",
+  "historyNoteLabel": "備註（點一下編輯）",
+  "historyAddNote": "新增備註",
+  "historyEditNote": "編輯備註",
+  "historyRuns": "趟次",
+  "historyLaps": "圈次",
+  "historyTagValid": "有效",
+  "historyTagInvalid": "無效",
+  "historyDeleteRecord": "刪除紀錄",
+  "routeLineStartFinish": "起終點",
+  "routeLineStart": "起點",
+  "routeLineFinish": "終點",
+  "routeSectorCount": "{count} 分段",
+  "@routeSectorCount": {
+    "description": "{count} sectors",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeCheckpointCount": "{count} 檢查點",
+  "@routeCheckpointCount": {
+    "description": "{count} checkpoints",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeGroupSegments": "路段",
+  "routeGroupCircuits": "賽道",
+  "timingCurrentVehicle": "目前車輛",
+  "timingNoVehicle": "尚未選擇",
+  "timingViewResult": "查看本次結果",
+  "timingStopCapture": "結束取點採集",
+  "lineSector": "分段",
+  "lineCheckpoint": "檢查點",
+  "timingUnarmed": "準備計時中",
+  "timingArmed": "等待通過起點",
+  "timingRunning": "計時中",
+  "timingFinished": "本次計時結束",
+  "gpsPoor": "GPS 品質不佳",
+  "gpsUnknownQuality": "GPS 含未知品質標記",
+  "gpsGood": "GPS 品質正常（尚未驗證實機精度）",
+  "reasonIncomplete": "尚未通過終點",
+  "reasonMissingLine": "缺少必要分段或檢查點",
+  "reasonLineOrder": "通過順序錯誤",
+  "reasonDataGap": "定位資料中斷",
+  "reasonTimeBase": "時間基準降級，使用測量 UTC",
+  "reasonAccuracy": "定位精度不足",
+  "reasonQuality": "含未知品質標記",
+  "reasonElapsed": "經過時間非正值",
+  "captureStationary": "請靜止車輛以紀錄標點",
+  "captureAccuracy": "定位精度不足，請換到開闊處再試",
+  "captureDispersion": "定位離散過大，請重新取點",
+  "captureApproach": "缺少進站方向：請沿通過方向直行至少 20 m 後停車",
+  "captureQuality": "樣本含不支援的品質標記",
+  "captureSamples": "定位樣本尚未就緒或時間不連續",
+  "captureGeometry": "此處幾何不支援取點",
+  "captureStartFirst": "請先開始取點採集，等待新定位。",
+  "routeCompleteRequired": "請填路線名稱，並完成所有線的取點",
+  "routeSaveBusy": "仍在處理採集資料，請再按保存路線",
+  "routeCaptured": "已取點",
+  "routePending": "待取點",
+  "routeLengthUpdated": "路線長度已更新",
+  "routeLengthDisplay": "路線長度（只用於顯示）",
+  "routeNameLabel": "路線名稱",
+  "routeModeSegment": "路段 segment",
+  "routeModeCircuit": "賽道 circuit",
+  "routeTimingLines": "計時線（{count} 段 / 上限 8 段）",
+  "@routeTimingLines": {
+    "description": "Timing lines ({count} sectors / max 8)",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeSectorLimitLabel": "{label}（已達上限）",
+  "@routeSectorLimitLabel": {
+    "description": "{label} (limit reached)",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "routeSectorLimitHelp": "最多 8 段，也就是 7 條分段線。",
+  "routeAddSector": "依序加入分段（停車取點）",
+  "routeAddCheckpoint": "依序加入檢查點",
+  "captureInstructions": "僅在安全停車時操作。沿預定通過方向進站，再停車約 5 秒，按鈕亮起後取點。",
+  "captureWidthNote": "線會以停車位置為中心；線太寬會增加相鄰道路誤判，既有線需重取才會套用新線寬。",
+  "captureStart": "開始取點採集",
+  "routeLengthMetres": "路線長度（公尺）",
+  "validityDegraded": "降級",
+  "resultTitle": "本次結果",
+  "done": "完成",
+  "circuitRecording": "賽道紀錄",
+  "resultNoCrossings": "尚無穿線結果；本次未完成起點穿線。",
+  "resultAccuracyNote": "正式時間只採用穿線結果；顯示的時間解析度不代表實機測量準確度。",
+  "shareResult": "分享結果",
+  "dashboardResuming": "恢復中",
+  "dashboardInterrupted": "已中斷",
+  "dashboardStopping": "停止中",
+  "dashboardRecording": "紀錄中",
+  "dashboardSpeed": "速度",
+  "dashboardLocationGap": "定位中斷",
+  "dashboardCurrentLap": "目前圈速",
+  "dashboardCurrentRun": "目前這趟",
+  "dashboardAllTimeBest": "歷史最佳",
+  "dashboardFaster": "快於今日最佳",
+  "dashboardSlower": "慢於今日最佳",
+  "dashboardNoSectors": "這條路線沒有分段線，不顯示分段色條",
+  "dashboardLapRecords": "圈次紀錄",
+  "dashboardRunRecords": "趟次紀錄",
+  "dashboardLapTime": "單圈時間",
+  "timingTime": "時間",
+  "timingDelta": "差值",
+  "timingStatus": "狀態",
+  "dashboardInProgress": "進行中",
+  "dashboardAutoArm": "每趟完成後自動等待下一趟；回程若正向通過起點也會開始計時。",
+  "timingFinish": "結束紀錄",
+  "timingFinishHint": "點擊後確認結束",
+  "finishHold": "按住",
+  "shortTimingQuestion": "尚未完成任何一趟或一圈，要刪除這次紀錄嗎？",
+  "shortFreeRecordingQuestion": "這次紀錄未滿 20 公尺，要刪除嗎？",
+  "shortRecordingDelete": "刪除",
+  "shortRecordingKeep": "保留",
+  "finishQuestion": "結束這次紀錄？",
+  "finishInstructions": "同時按住左右兩個按鈕 1 秒才會結束。\n結束後會停止記錄並顯示結果。",
+  "finishReturn": "返回計時",
+  "reasonUnknown": "未知原因（{code}）",
+  "@reasonUnknown": {
+    "description": "Unknown reason ({code})",
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "gpsConfirmation": "GPS 品質確認：{quality}",
+  "@gpsConfirmation": {
+    "description": "GPS quality: {quality}",
+    "placeholders": {
+      "quality": {
+        "type": "String"
+      }
+    }
+  },
+  "gpsAccuracy": "水平精度：{accuracy}",
+  "@gpsAccuracy": {
+    "description": "Horizontal accuracy: {accuracy}",
+    "placeholders": {
+      "accuracy": {
+        "type": "String"
+      }
+    }
+  },
+  "gpsSampleAge": "樣本年齡：{age}",
+  "@gpsSampleAge": {
+    "description": "Sample age: {age}",
+    "placeholders": {
+      "age": {
+        "type": "String"
+      }
+    }
+  },
+  "timingSeconds": "{seconds} 秒",
+  "@timingSeconds": {
+    "description": "{seconds} s",
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "routeCapturedLine": "{line}取點完成",
+  "@routeCapturedLine": {
+    "description": "{line} captured",
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeEditVersion": "編輯路線 · v{version}",
+  "@routeEditVersion": {
+    "description": "Edit course · v{version}",
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "routeReverseLine": "反轉{line}方向",
+  "@routeReverseLine": {
+    "description": "Reverse {line} direction",
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeCaptureFor": "為「{line}」取點",
+  "@routeCaptureFor": {
+    "description": "Capture “{line}”",
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeCaptureLine": "取{line}",
+  "@routeCaptureLine": {
+    "description": "Capture {line}",
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeRecaptureLine": "重取{line}",
+  "@routeRecaptureLine": {
+    "description": "Recapture {line}",
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "routeCaptureMetadata": "樣本數：{count} · 離散：{dispersion} m · 方位：{bearing}° · 線寬：{width} m",
+  "@routeCaptureMetadata": {
+    "description": "Samples: {count} · Spread: {dispersion} m · Bearing: {bearing}° · Width: {width} m",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "dispersion": {
+        "type": "String"
+      },
+      "bearing": {
+        "type": "String"
+      },
+      "width": {
+        "type": "String"
+      }
+    }
+  },
+  "routeWidth": "線寬 {width} m",
+  "@routeWidth": {
+    "description": "Width {width} m",
+    "placeholders": {
+      "width": {
+        "type": "String"
+      }
+    }
+  },
+  "routeWidthDefault": "線寬 {width} m（預設）",
+  "@routeWidthDefault": {
+    "description": "Width {width} m (default)",
+    "placeholders": {
+      "width": {
+        "type": "String"
+      }
+    }
+  },
+  "resultRouteVersion": "路線版本 v{version}",
+  "@resultRouteVersion": {
+    "description": "Course version v{version}",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "resultRunReason": "第 {index} {unit}{validity}：{reasons}",
+  "@resultRunReason": {
+    "description": "{unit} {index} {validity}: {reasons}",
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "unit": {
+        "type": "String"
+      },
+      "validity": {
+        "type": "String"
+      },
+      "reasons": {
+        "type": "String"
+      }
+    }
+  },
+  "resultSectors": "{unit}次與分段（秒）",
+  "@resultSectors": {
+    "description": "{unit} and sectors (seconds)",
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultRunIndex": "{unit}次",
+  "@resultRunIndex": {
+    "description": "{unit}",
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultStatistics": "資料中斷：{gaps} · 時間倒退：{regressions}",
+  "@resultStatistics": {
+    "description": "Data gaps: {gaps} · Time regressions: {regressions}",
+    "placeholders": {
+      "gaps": {
+        "type": "int"
+      },
+      "regressions": {
+        "type": "int"
+      }
+    }
+  },
+  "resultFindings": "匯入標記：{findings}",
+  "@resultFindings": {
+    "description": "Import flags: {findings}",
+    "placeholders": {
+      "findings": {
+        "type": "String"
+      }
+    }
+  },
+  "resultQuality": "品質標記：{flags}",
+  "@resultQuality": {
+    "description": "Quality flags: {flags}",
+    "placeholders": {
+      "flags": {
+        "type": "String"
+      }
+    }
+  },
+  "finishHeldSeconds": "已按住 {seconds} 秒…",
+  "@finishHeldSeconds": {
+    "description": "Held for {seconds} s…",
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "resultBestUnit": "最佳{unit}",
+  "@resultBestUnit": {
+    "description": "Best {unit}",
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultValidUnit": "有效{unit}",
+  "@resultValidUnit": {
+    "description": "Valid {unit}",
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "timingLapUnit": "圈",
+  "@timingLapUnit": {
+    "description": "Lap",
+    "placeholders": {}
+  },
+  "timingRunUnit": "趟",
+  "@timingRunUnit": {
+    "description": "Run",
+    "placeholders": {}
+  },
+  "gpsNoFreshHint": "目前無即時定位；可先開始採集，取得新樣本後再確認品質。",
+  "@gpsNoFreshHint": {
+    "description": "No live location. Start collection, then check quality once fresh samples arrive.",
+    "placeholders": {}
+  },
+  "timingLapsHeading": "LAPS",
+  "timingRunsHeading": "RUNS",
+  "timingSpeedHeading": "SPEED",
+  "timingBestHeading": "BEST",
+  "timingDeltaHeading": "DELTA",
+  "timingTotalHeading": "TOTAL",
+  "timingGpsHeading": "GPS",
+  "mapTrack": "軌跡地圖",
+  "mapStart": "起",
+  "mapEnd": "終",
+  "mapGap": "中斷 {seconds} s",
+  "mapSector": "分段 {number}",
+  "mapCheckpoint": "檢查點 {number}",
+  "mapZoomIn": "放大地圖",
+  "mapZoomOut": "縮小地圖",
+  "mapNorth": "北方",
+  "mapCurrentPosition": "目前位置",
+  "mapNoBase": "沒有底圖",
+  "mapBySpeed": "依速度",
+  "mapMonochrome": "單色",
+  "mapSlow": "慢",
+  "mapFast": "快",
+  "mapStyleSaveError": "無法保存軌跡樣式，請重試。",
+  "mapLoadError": "地圖無法載入",
+  "mapTrackLoadError": "無法載入軌跡。",
+  "@mapGap": {
+    "description": "Gap {seconds} s",
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "@mapSector": {
+    "description": "Sector {number}",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@mapCheckpoint": {
+    "description": "Checkpoint {number}",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "applyRouteListHeader": "路線",
+  "applyRouteTitle": "套用路線",
+  "applyRouteEntry": "＋ 套用路線",
+  "applyRouteExplanation": "選一條路線，用這次的軌跡重新計算計時結果。原始紀錄不會被修改。",
+  "applyRoutePreviewHint": "預覽只供目視確認軌跡有沒有經過計時線；是否有效以計算結果為準。",
+  "applyRouteAlreadyApplied": "已套用",
+  "applyRouteStartFinish": "起點、終點",
+  "applyRouteLapLine": "起終點",
+  "applyRouteConfirm": "套用「{route}」",
+  "applyRouteResultSummary": "最佳 {best} · 有效 {valid} / {total}",
+  "applyRouteLoadError": "無法載入路線，請重試。",
+  "applyRouteSaveError": "套用失敗，請確認紀錄已結束且含有定位樣本，再重試。",
+  "@applyRouteConfirm": {
+    "description": "Apply “{route}”",
+    "placeholders": {
+      "route": {
+        "type": "String"
+      }
+    }
+  },
+  "@applyRouteResultSummary": {
+    "description": "Best {best} · Valid {valid} / {total}",
+    "placeholders": {
+      "best": {
+        "type": "String"
+      },
+      "valid": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "history107AppliedRoutes": "已套用 {count} 條路線",
+  "history107ContainsGaps": "含資料中斷",
+  "history107TimingRecording": "計時紀錄",
+  "history107GapDuration": "次 · {seconds} s",
+  "@history107AppliedRoutes": {
+    "description": "{count} courses applied",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@history107GapDuration": {
+    "description": "gaps · {seconds} s",
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "freeRecStops": "停車次數",
+  "mapFollow": "跟隨位置",
+  "mapWholePath": "整段路徑",
+  "mapFitWholePath": "顯示整段路徑",
+  "mapShowWholePath": "切換為顯示整段路徑",
+  "mapFollowPosition": "切換為跟隨目前位置",
+  "resultSessionTheoreticalBest": "本次理論最佳{unit}",
+  "@resultSessionTheoreticalBest": {
+    "description": "Session theoretical best {unit}",
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultAllTimeTheoreticalBest": "歷史理論最佳{unit}",
+  "@resultAllTimeTheoreticalBest": {
+    "description": "All-time theoretical best {unit}",
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "resultFasterThanBest": "比最佳{unit}快 {delta}",
+  "@resultFasterThanBest": {
+    "description": "{delta} faster than best {unit}",
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      },
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "routeMapAddSector": "＋ 在地圖上放分段",
+  "routeMapAddCheckpoint": "＋ 在地圖上放檢查點",
+  "routeMapRequiresEndpoints": "請先取好起點與終點（賽道為起終點線），才能在地圖上放線。",
+  "routeMapPick": "點地圖選位置",
+  "routeMapDrag": "拖曳預覽線中央可移動位置",
+  "routeMapRotateMinus": "旋轉 −15°",
+  "routeMapRotatePlus": "旋轉 +15°",
+  "routeMapDone": "放好了",
+  "routeMapPlaced": "地圖放置",
+  "routeMapAdjust": "調整",
+  "routeFromRecordingEntry": "＋ 從這次紀錄建立路線",
+  "routeFromRecordingName": "自由紀錄 {place}",
+  "routeFromRecordingUnavailable": "沒有可用軌跡，無法建立路線。",
+  "routeFromRecordingApplyError": "路線已保存，但套用失敗。請用「套用路線」重試。",
+  "@routeFromRecordingName": {
+    "description": "Free recording {place}",
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "routeReorderLine": "拖曳調整計時線順序",
+  "mapSpeedReference": "依本次最高時速",
+  "trackSpeedSettings": "軌跡顏色（依速度）",
+  "trackSpeedGreen": "綠",
+  "trackSpeedYellow": "黃",
+  "trackSpeedOrange": "橙",
+  "trackSpeedRed": "紅",
+  "trackSpeedPurple": "紫",
+  "trackSpeedReset": "恢復預設",
+  "trackSpeedSave": "保存",
+  "trackSpeedBoundary": "分界 {number}",
+  "trackSpeedIntegerError": "請輸入 1–99 的整數百分比",
+  "trackSpeedOrderError": "分界必須嚴格遞增",
+  "@trackSpeedBoundary": {
+    "description": "Boundary {number}",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingGroupBadge": "合併 {count} 段",
+  "@recordingGroupBadge": {
+    "description": "Merged {count} parts",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingSelected": "已選 {count} 筆",
+  "@recordingSelected": {
+    "description": "{count} selected",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMerge": "合併",
+  "recordingMergeSameVehicle": "不同車輛",
+  "recordingMergeFinishedOnly": "只能合併已完成的紀錄",
+  "recordingMergeQuestion": "合併 {count} 筆紀錄？",
+  "@recordingMergeQuestion": {
+    "description": "Merge {count} recordings?",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeWarning": "合併後歷史只顯示一筆，可以在詳情裡拆回。",
+  "recordingGroupSplit": "拆回 {count} 筆紀錄",
+  "@recordingGroupSplit": {
+    "description": "Split into {count} recordings",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingGroupSplitWarning": "拆分後，各段會重新顯示為獨立紀錄。",
+  "recordingGroupDeleteWarning": "會從這支手機刪除 {count} 段紀錄的軌跡與原始檔，車庫與路線的統計、最佳圈會保留",
+  "@recordingGroupDeleteWarning": {
+    "description": "Tracks and original files for all {count} parts will be deleted from this phone. Garage and course statistics and best laps will be kept.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingGroupParts": "合併的紀錄",
+  "recordingGroupPart": "第 {count} 段",
+  "@recordingGroupPart": {
+    "description": "Part {count}",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "freeRecContinue": "接續紀錄",
+  "freeRecSessionErrorDetails": "紀錄操作發生錯誤：{error}",
+  "@freeRecSessionErrorDetails": {
+    "description": "Recording action failed: {error}",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shareImageTitle": "分享圖片",
+  "shareImageRegion": "地區",
+  "shareImagePrivacy": "圖片含地圖與路線位置，分享前請確認起點、終點附近沒有你不想公開的地方。",
+  "shareImageDownload": "下載圖片",
+  "shareImageSaved": "已存到相簿",
+  "shareImageMapFailed": "無法載入地圖，圖片只畫路線",
+  "shareImageDisclaimer": "數據由手機GPS估算，僅供參考",
+  "shareImageGenerating": "正在產生圖片…",
+  "shareImageLoadError": "無法載入紀錄，請返回重試",
+  "shareImageExport": "匯出",
+  "shareImageTimingFile": "計時結果檔",
+  "shareImageTheory": "理論最佳圈",
+  "shareImageTheoryRun": "理論最佳趟",
+  "shareImageLength": "路線長度",
+  "shareImageCircuit": "賽道計時",
+  "shareImageSegment": "路段計時",
+  "routeCreateGps": "實車取點",
+  "routeCreateMap": "在地圖上製作",
+  "routeMapCreateTitle": "在地圖上製作路線",
+  "routeMapNameHint": "輸入路線名稱",
+  "routeMapPending": "尚未放置",
+  "routeMapPlace": "在地圖上放",
+  "routeMapNeedsSegmentEndpoints": "先放好起點和終點",
+  "routeMapNeedsCircuitEndpoint": "先放好起終點線",
+  "routeMapNavigatePick": "拖曳、縮放地圖，點一下放線",
+  "routeMapReverse": "反向",
+  "routeMapNormal": "地圖",
+  "routeMapSatellite": "衛星",
+  "routeMapLengthAuto": "第一次計時後自動量測",
+  "routeMapStartFinish": "起終點線",
+  "shareImagePost": "4:5 貼文",
+  "shareImageStory": "9:16 限時動態",
+  "shareImagePortrait": "9:16 長圖",
+  "shareImageMapGestures": "拖曳移動，兩指縮放、旋轉地圖",
+  "shareImageResetView": "⟲ 重設視角",
+  "shareImageNorth": "N",
+  "recordingMergeEntry": "紀錄合併",
+  "recordingMergeCircuitOnly": "賽道紀錄不能和自由紀錄或路段紀錄合併",
+  "recordingMergeSameCircuit": "賽道紀錄只能和同一條賽道合併",
+  "recordingMergeVersion": "路線版本不同（第 {actual} 版），先用第 {expected} 版重新套用",
+  "@recordingMergeVersion": {
+    "description": "Different course version (v{actual}); reapply v{expected} first",
+    "placeholders": {
+      "actual": {
+        "type": "int"
+      },
+      "expected": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeCircuitHint": "已選賽道紀錄：只能再選{route}（第 {version} 版）、同一台車、已完成的紀錄。",
+  "@recordingMergeCircuitHint": {
+    "description": "Circuit selected: choose finished recordings of {route} (v{version}) with the same vehicle.",
+    "placeholders": {
+      "route": {
+        "type": "String"
+      },
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeFreeHint": "已選自由紀錄或路段紀錄：可以再選同一台車、已完成的自由紀錄或路段紀錄。",
+  "recordingMergeFreeCount": "自由紀錄 {count} 筆",
+  "@recordingMergeFreeCount": {
+    "description": "{count} free recordings",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeSegmentCount": "路段紀錄 {count} 筆",
+  "@recordingMergeSegmentCount": {
+    "description": "{count} segment recordings",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeCircuitCount": "賽道紀錄 {count} 筆",
+  "@recordingMergeCircuitCount": {
+    "description": "{count} circuit recordings",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeTimingCount": "計時紀錄 {count} 筆",
+  "@recordingMergeTimingCount": {
+    "description": "{count} timing recordings",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingMergeCountSeparator": "、",
+  "recordingSegmentTitle": "路段紀錄",
+  "recordingPartLaps": "第 {count} 段的圈速",
+  "@recordingPartLaps": {
+    "description": "Part {count} laps",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingSegmentResults": "路段成績",
+  "recordingSegmentSummary": "最佳趟 · {count} 趟有效",
+  "@recordingSegmentSummary": {
+    "description": "Best run · {count} valid runs",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingTheoreticalBestLap": "理論最佳圈",
+  "updateCheck": "檢查更新",
+  "updateChecking": "檢查中",
+  "updateUpToDate": "已是最新版",
+  "updateCheckFailed": "無法檢查，請確認網路",
+  "updateRecordingDisabled": "紀錄中無法更新",
+  "updateAvailable": "有新版本 {version}",
+  "updateDownloading": "正在下載 {version}",
+  "updateCurrentVersion": "目前版本 {version} · 檔案 {size} MB",
+  "updatePermissionTitle": "需要允許安裝",
+  "updatePermissionBody": "下載完成。已開啟系統設定頁，請允許 RoadScope 安裝應用程式，再回到這裡按一次「更新」。",
+  "updateDownloadFailed": "下載失敗",
+  "updateDownloadFailedBody": "無法下載新版本，請確認網路後再試。",
+  "updateInvalidTitle": "檔案驗證失敗",
+  "updateInvalidBody": "下載的檔案與發布內容不符，已刪除，未安裝。",
+  "updateInvalidHelp": "請稍後再試，若持續發生請回報。",
+  "updateLater": "稍後",
+  "updateAction": "更新",
+  "updateRetry": "重試",
+  "updateRedownload": "重新下載",
+  "@updateAvailable": {
+    "description": "New version {version}",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@updateDownloading": {
+    "description": "Downloading {version}",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@updateCurrentVersion": {
+    "description": "Current version {version} · File {size} MB",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "routeEditCourse": "編輯賽道",
+  "routeBrowseRecords": "瀏覽紀錄",
+  "routeNoRecords": "沒有紀錄",
+  "routeRecordCount": "{count} 筆紀錄",
+  "routeCreateSegmentHint": "起點到終點，每趟計時一次",
+  "routeCreateCircuitHint": "起終點是同一條線，繞圈計時",
+  "@routeRecordCount": {
+    "description": "{count} recordings",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "vehicleBrand": "廠牌",
+  "vehicleModel": "車型",
+  "vehicleDisplacement": "排氣量（cc）",
+  "vehicleDisplacementInvalid": "請輸入 1–20000 之間的整數",
+  "vehicleNicknameHint": "沒填暱稱時，車庫和紀錄會顯示「廠牌 車型」。",
+  "vehicleEdit": "編輯",
+  "garageFreeRecords": "自由紀錄",
+  "garageTimingRecords": "賽道/路段紀錄",
+  "garageRecordedDistance": "紀錄里程",
+  "garageMaxSpeed": "歷史最高時速",
+  "garageLongestRecording": "單次最高",
+  "garageLongRecords": "100 km 以上",
+  "garageRecordUnit": "筆",
+  "routeRecordsLap": "第 {number} 圈",
+  "@routeRecordsLap": {
+    "description": "Lap {number}",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsTrip": "第 {number} 趟",
+  "@routeRecordsTrip": {
+    "description": "Run {number}",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsLaps": "{count} 圈",
+  "@routeRecordsLaps": {
+    "description": "{count} laps",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsTrips": "{count} 趟",
+  "@routeRecordsTrips": {
+    "description": "{count} runs",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsSectorCount": "{count} 段",
+  "@routeRecordsSectorCount": {
+    "description": "{count} sectors",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeRecordsFastestLap": "最快圈",
+  "routeRecordsFastestTrip": "最快趟",
+  "routeRecordsTheoretical": "擬合最快圈",
+  "routeRecordsTheoreticalTrip": "擬合最快趟",
+  "routeRecordsSources": "擬合來源",
+  "routeRecordsList": "紀錄列表",
+  "routeRecordsEmpty": "這條路線目前版本還沒有紀錄。選這條路線開始計時後，紀錄會出現在這裡。",
+  "routeRecordsNoTrack": "還沒有可畫的圈",
+  "routeRecordsNoTrackTrip": "還沒有可畫的趟",
+  "routeRecordsNoVehicle": "未指定車輛",
+  "routeRecordsVersionNote": "只列出這條路線 v{version} 與目前演算法版本的紀錄，舊版本不列入。",
+  "@routeRecordsVersionNote": {
+    "description": "Only records for course v{version} and the current algorithm version are shown. Older versions are excluded.",
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "uploadProbeTitle": "背景上傳實測",
+  "uploadProbeUrl": "接收端網址",
+  "uploadProbeSwitch": "錄製中每秒送出",
+  "uploadProbeCounts": "已送 {sent}・丟棄 {dropped}・重連 {reconnects}",
+  "uploadProbeConnection": "連線狀態：{state}",
+  "uploadProbeError": "最後錯誤：{error}",
+  "uploadProbeOff": "關閉",
+  "uploadProbeWaiting": "等待錄製",
+  "uploadProbeConnecting": "連線中",
+  "uploadProbeConnected": "已連線",
+  "uploadProbeReconnecting": "重連中",
+  "uploadProbeInvalidUrl": "請輸入有效的 ws:// 或 wss:// 網址",
+  "uploadProbeStatusFailed": "讀取狀態或送出失敗",
+  "uploadProbeConnectFailed": "連線失敗",
+  "uploadProbeClosed": "連線已關閉",
+  "@uploadProbeCounts": {
+    "description": "Sent {sent} · Dropped {dropped} · Reconnects {reconnects}",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "dropped": {
+        "type": "int"
+      },
+      "reconnects": {
+        "type": "int"
+      }
+    }
+  },
+  "@uploadProbeConnection": {
+    "description": "Connection: {state}",
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "@uploadProbeError": {
+    "description": "Last error: {error}",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "accountTitle": "帳號",
+  "accountEmail": "Email",
+  "accountOfflineNotice": "只有車隊需要帳號。紀錄、計時、歷史、車庫和賽道都不需要登入，也不需要網路。",
+  "accountEmailHint": "我們會寄一組 6 位數驗證碼到這個信箱。不用設定密碼。",
+  "accountSendCode": "寄送驗證碼",
+  "accountFeatures": "需要帳號的功能",
+  "accountTeams": "車隊",
+  "accountCloudBackup": "雲端備份",
+  "accountComingSoon": "尚未提供",
+  "accountLoginRequired": "登入後可用",
+  "accountAvatar": "頭像",
+  "accountChange": "更換",
+  "accountNickname": "暱稱",
+  "accountTeamService": "車隊服務",
+  "accountConnected": "已連線",
+  "accountDisconnected": "無法連線",
+  "accountUnavailable": "—",
+  "accountTeamCount": "{count} 隊",
+  "accountLocalNotice": "紀錄和計時都存在這支手機上，登出或沒有網路時照常可用。頭像也只存在這支手機；建立或加入車隊時，才會上傳一張縮圖給那一隊。",
+  "accountSignOut": "登出",
+  "accountDelete": "刪除帳號",
+  "accountDeleteTitle": "確定刪除帳號？",
+  "accountDeleteExplanation": "刪除後無法復原，伺服器上的帳號、成員資格和頭像將刪除。你是隊長時，會自動交給加入最久的成員；沒有其他成員就解散車隊。本機紀錄和計時資料會保留。",
+  "accountDeleteConfirm": "確認刪除",
+  "accountCancel": "取消",
+  "accountOtpTitle": "輸入驗證碼",
+  "accountOtpSent": "驗證碼已寄到 {email}，10 分鐘內有效。",
+  "accountResendCountdown": "沒收到？先看看垃圾郵件，或 {seconds} 秒後重新寄送",
+  "accountResend": "重新寄送驗證碼",
+  "accountChangeEmail": "換一個 email",
+  "accountLogin": "登入",
+  "accountOtpDigit": "第 {digit} 格驗證碼",
+  "accountNicknameTitle": "設定暱稱",
+  "accountNicknameHint": "隊友在地圖上會看到這個名字，email 不會給隊友看。之後可以在帳號分頁修改。",
+  "accountNicknameLabel": "暱稱（1–16 字）",
+  "accountDone": "完成",
+  "accountChoosePhoto": "從相簿選擇",
+  "accountTakePhoto": "拍照",
+  "accountRemoveAvatar": "移除頭像",
+  "accountAvatarPreview": "地圖與成員列表的樣子",
+  "accountWithAvatar": "有頭像",
+  "accountWithoutAvatar": "沒有頭像",
+  "accountAvatarRingHint": "外圈是上線時選的標點顏色；沒設頭像就顯示暱稱第一個字。",
+  "accountAvatarNotice": "選好照片後會裁成正方形，縮成 256 × 256 再存。頭像只存在這支手機；建立或加入車隊時，上傳一份縮圖到那一隊，換頭像時會更新你所在的每一隊。離隊或車隊解散時，伺服器上的那份會刪掉。",
+  "accountAvatarFailed": "無法處理照片，請確認相簿或相機權限，或換一張照片。",
+  "accountInvalidEmail": "請輸入有效的 email。",
+  "accountRateLimited": "操作太頻繁，請稍後再試。",
+  "accountOtpExpired": "驗證碼已過期，請重新寄送。",
+  "accountOtpInvalid": "驗證碼不正確，請再試一次。",
+  "accountInvalidInput": "請輸入 1–16 字的暱稱。",
+  "accountRequestFailed": "暫時無法連線，請稍後再試。本機紀錄和計時不受影響。",
+  "@accountTeamCount": {
+    "description": "{count} teams",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountOtpSent": {
+    "description": "A code was sent to {email}. It is valid for 10 minutes.",
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountResendCountdown": {
+    "description": "No email? Check spam, or resend in {seconds} seconds.",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountOtpDigit": {
+    "description": "Verification code digit {digit}",
+    "placeholders": {
+      "digit": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsTitle": "車隊",
+  "teamsJoin": "加入車隊",
+  "teamsCreate": "建立車隊",
+  "teamsPrivacy": "加入車隊不會分享你的位置。開始自由紀錄後按「上線」，隊友才看得到你。",
+  "teamsLimit": "每個帳號最多加入 20 隊。",
+  "teamsName": "車隊名稱",
+  "teamsRename": "改名",
+  "teamsMembers": "成員 · {count} 人",
+  "@teamsMembers": {
+    "description": "Members · {count}",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsCount": "{count} 人",
+  "@teamsCount": {
+    "description": "{count} members",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsPendingCount": "{count} 人待核准",
+  "@teamsPendingCount": {
+    "description": "{count} pending approval",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsLastOnline": "上次上線 {time}",
+  "@teamsLastOnline": {
+    "description": "Last online {time}",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsNeverOnline": "尚無上線紀錄",
+  "teamsWaiting": "等待核准・{hours} 小時後失效",
+  "@teamsWaiting": {
+    "description": "Awaiting approval · expires in {hours} hours",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsRejected": "申請未通過",
+  "teamsScanHint": "把隊長手機上的 QR code 對準框框",
+  "teamsCodeLabel": "或輸入 8 碼邀請碼",
+  "teamsCodeHint": "不分大小寫。邀請碼 24 小時內有效。",
+  "teamsCameraDenied": "無法使用相機，請輸入邀請碼加入。",
+  "teamsInvalidCode": "請輸入 8 碼，不含 0/O、1/I/L。",
+  "teamsRateLimited": "嘗試太多次了，請 {seconds} 秒後再試。",
+  "@teamsRateLimited": {
+    "description": "Too many attempts. Try again in {seconds} seconds.",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsRateExplanation": "為了保護車隊，同一個帳號或網路短時間內輸錯太多次邀請碼，會暫時不能加入。",
+  "teamsInviteExpired": "邀請碼已失效，請向隊長索取新碼。",
+  "teamsFull": "車隊已滿，請先移除成員再核准。",
+  "teamsRequestsFull": "這隊目前無法申請。",
+  "teamsFailed": "車隊服務無法連線，請稍後重試。",
+  "teamsInvalidName": "名稱需為 1–24 個字，前後不能有空白。",
+  "teamsInvite": "邀請隊友",
+  "teamsGenerate": "產生邀請碼",
+  "teamsRegenerate": "重新產生",
+  "teamsRegenerateWarning": "重新產生後，舊邀請碼會立即失效。",
+  "teamsCopy": "複製",
+  "teamsCopied": "已複製邀請碼",
+  "teamsValidUntil": "有效到 {time}",
+  "@teamsValidUntil": {
+    "description": "Valid until {time}",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsCaptain": "隊長",
+  "teamsMember": "成員",
+  "teamsYou": "{name}（你）",
+  "@teamsYou": {
+    "description": "{name} (you)",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsUnnamed": "未設定暱稱",
+  "teamsJoinedAt": "加入於 {time}",
+  "@teamsJoinedAt": {
+    "description": "Joined {time}",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsMemberActions": "{name}的成員選單",
+  "@teamsMemberActions": {
+    "description": "Actions for {name}",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsTransfer": "移交隊長",
+  "teamsRemove": "移除成員",
+  "teamsRemoveWarning": "確定移除 {name}？",
+  "@teamsRemoveWarning": {
+    "description": "Remove {name}?",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsCacheTitle": "伺服器暫存",
+  "teamsCacheExplanation": "連續 12 小時沒人上線，伺服器會清掉這隊的頭像和邀請碼，成員名單會保留。你是隊長，下次上線時會自動重新上傳。",
+  "teamsCacheExpired": "等隊長上線",
+  "teamsCacheExpiredExplanation": "這隊的伺服器暫存已清除，頭像與邀請碼已失效。隊長下次上線後可以恢復。成員仍可上線分享位置。",
+  "teamsCaptainInviteOnly": "只有隊長能產生邀請碼。",
+  "teamsLeave": "離開車隊",
+  "teamsLeaveWarning": "確定離開車隊？若只剩你一人，離隊等於解散。",
+  "teamsDissolve": "解散車隊",
+  "teamsDissolveWarning": "確定解散車隊？所有成員會立即離隊。",
+  "teamsDissolveAgain": "再次確認解散，這個動作無法復原。",
+  "teamsTransferFirst": "離隊前請先移交隊長",
+  "teamsTransferExplanation": "選一位成員為新隊長，你就會變成一般成員並離開車隊。只剩你一個人時，離隊等於解散。",
+  "teamsTransferLeave": "移交並離隊",
+  "teamsApproval": "加入需核准",
+  "teamsApprovalHint": "開啟後，掃 QR 或輸入邀請碼的人，要等你核准才會加入。",
+  "teamsPendingTitle": "待核准 · {count}",
+  "@teamsPendingTitle": {
+    "description": "Pending · {count}",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "teamsApprove": "核准",
+  "teamsReject": "拒絕",
+  "teamsPendingExplanation": "待核准的人還不是成員，看不到任何人的位置，也不佔名額。核准時如果已滿員，請先移除成員。",
+  "teamsRequestSent": "已送出加入申請",
+  "teamsRequestTeam": "{team} · 隊長 {captain}",
+  "@teamsRequestTeam": {
+    "description": "{team} · Captain {captain}",
+    "placeholders": {
+      "team": {
+        "type": "String"
+      },
+      "captain": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsRequestExplanation": "隊長核准後你才會成為成員。在那之前，你看不到任何人的位置，別人也看不到你；24 小時內沒有處理，申請會自動失效。隊長核准或拒絕後，打開車隊分頁就會看到結果。",
+  "teamsCancelRequest": "取消申請",
+  "teamsRequestEnded": "這筆申請已結束，請回車隊列表查看結果。",
+  "sharingStarting": "正在上線…",
+  "sharingOnline": "上線中",
+  "sharingReconnecting": "重新連線中",
+  "sharingOffline": "未上線",
+  "sharingRecordingUnaffected": "紀錄不受影響，連上後自動恢復分享",
+  "sharingCounts": "{online} 人分享中 · {offline} 人離線",
+  "@sharingCounts": {
+    "description": "{online} sharing · {offline} offline",
+    "placeholders": {
+      "online": {
+        "type": "int"
+      },
+      "offline": {
+        "type": "int"
+      }
+    }
+  },
+  "sharingOfflineHint": "上線後分享位置給隊友",
+  "sharingUnavailable": "車隊服務無法連線，紀錄不受影響",
+  "sharingGoOnline": "上線",
+  "sharingGoOffline": "下線",
+  "sharingNoTeams": "請先到車隊分頁加入或建立車隊",
+  "sharingChooseColor": "選擇標點顏色",
+  "sharingColorNames": "紅|橘|黃|萊姆|綠|薄荷|青|天藍|藍|靛|紫|粉|桃紅|棕|白|灰",
+  "sharingColorHint": "變淡的顏色已有隊友使用，不能選；下次預設上次的顏色。",
+  "sharingColorTaken": "這個顏色剛被隊友選走了，請改選其他顏色",
+  "sharingUnnamed": "隊友",
+  "sharingSecondsAgo": "{seconds} 秒前",
+  "@sharingSecondsAgo": {
+    "description": "{seconds}s ago",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "sharingDistance": "距離我 {distance} km（直線）",
+  "@sharingDistance": {
+    "description": "{distance} km from me (straight line)",
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "sharingDistanceUnknown": "距離我 —（等待定位）",
+  "sharingUpdateSpeed": "{seconds} 秒前更新 · {speed} km/h",
+  "@sharingUpdateSpeed": {
+    "description": "Updated {seconds}s ago · {speed} km/h",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      },
+      "speed": {
+        "type": "String"
+      }
+    }
+  },
+  "sharingWholeTeam": "全隊",
+  "accountPlan": "方案",
+  "accountPlanFree": "免費",
+  "accountPlanPro": "Pro",
+  "accountPlanExpired": "Pro 已到期",
+  "accountPlanFreeDescription": "Pro 可去除廣告，並將車隊同時上線上限提高至 16 人。",
+  "accountPlanPurchaseLater": "購買會在下一個版本開放",
+  "accountPlanExpires": "到期日：{date}",
+  "accountPlanNoExpiry": "無到期日",
+  "accountPlanExpiredDescription": "廣告已恢復；你擔任隊長的車隊同時上線上限回到 4 人。",
+  "@accountPlanExpires": {
+    "description": "Expires: {date}",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "teamsOnlineLimit": "同時上線 {count} / {limit}",
+  "teamsOnlineLimitExplanation": "隊長是免費版時，最多 4 人同時上線；隊長是 Pro 時，最多 16 人。成員上限一律為 16 人。",
+  "sharingOnlineLimitReached": "同時上線已滿",
+  "sharingOnlineLimitReachedCount": "同時上線已滿（{count}/{limit}）",
+  "sharingOnlineLimitExplanation": "隊長升級 Pro 可同時 16 人上線。自由紀錄不受影響；有空位後，請再手動上線。",
+  "sharingOnlineLimitGotIt": "知道了",
+  "@teamsOnlineLimit": {
+    "description": "Online at once {count} / {limit}",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "@sharingOnlineLimitReachedCount": {
+    "description": "Online limit reached ({count}/{limit})",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "backupTitle": "雲端備份",
+  "backupNever": "尚未備份",
+  "backupDescription": "備份到你自己的 Google 雲端硬碟，不需要 RoadScope 帳號。備份由你手動開始，雲端資料只增不減。",
+  "backupConnect": "連結 Google 雲端硬碟",
+  "backupGoogleAccount": "Google 帳號",
+  "backupDeviceFolder": "這支手機的資料夾",
+  "backupLast": "上次備份",
+  "backupPending": "尚未備份",
+  "backupRefresh": "重新整理",
+  "backupNow": "立即備份",
+  "backupRestore": "從雲端還原",
+  "backupDisconnect": "中斷與 Google 的連結",
+  "backupFolderName": "替資料夾取名",
+  "backupFolderNameHint": "請輸入 1–64 字的名稱",
+  "backupConfirm": "備份前確認",
+  "backupSummary": "{records} 筆紀錄 · {photos} 張照片 · {size} MB",
+  "backupCellularWarning": "目前使用行動網路，備份可能產生數據費用。",
+  "backupRunning": "備份中",
+  "backupRestoring": "還原中",
+  "backupComplete": "備份完成",
+  "backupRestoreComplete": "還原完成",
+  "backupRecordProgress": "{done} / {total} 筆",
+  "backupEta": "預估剩餘 {seconds} 秒",
+  "backupEstimating": "正在估算剩餘時間…",
+  "backupStayInApp": "備份與還原中請留在 App",
+  "backupStop": "停止備份",
+  "backupStopRestore": "停止還原",
+  "backupStopped": "已停止備份或還原",
+  "backupDone": "完成",
+  "backupChooseDevice": "選擇裝置資料夾",
+  "backupThisPhone": "這支手機",
+  "backupNoFolders": "雲端尚無裝置資料夾",
+  "backupRestoreMerge": "只補缺的、不覆蓋。這支手機已有的資料與設定會保留。",
+  "backupRestoreScope": "選擇還原範圍",
+  "backupRestoreAll": "全部還原",
+  "backupRestoreStatistics": "只還原路線、車庫、設定與統計",
+  "backupFutureDestination": "之後備份到哪？",
+  "backupContinueFolder": "之後備份到這個資料夾",
+  "backupNewFolder": "建立新資料夾",
+  "backupStartRestore": "開始還原",
+  "backupTakenOver": "資料夾已被接手",
+  "backupTakenOverDescription": "這個資料夾已由另一支手機接續使用。請替這支手機建立新資料夾。",
+  "backupDeleteUnprotected": "這筆紀錄還沒備份，刪除後無法救回",
+  "backupDeleteProtected": "雲端備份仍保留，要清掉請到 Google 雲端硬碟自行刪除",
+  "backupErrorNotConfigured": "這個版本沒有設定 Google 備份",
+  "backupErrorAuthorization": "Google 授權已失效，請重新連結",
+  "backupErrorStorage": "Google 雲端硬碟空間不足",
+  "backupErrorNetwork": "網路連線中斷，請稍後重試",
+  "backupErrorVersion": "備份版本較新，請先更新 App",
+  "backupErrorInvalid": "備份資料不完整或格式不正確",
+  "backupErrorBusy": "備份或還原正在執行",
+  "backupErrorPlatform": "無法啟動或維持備份服務",
+  "backupErrorDrive": "無法存取 Google 雲端硬碟",
+  "@backupSummary": {
+    "description": "{recordings} recordings · {photos} photos · {size} MB",
+    "placeholders": {
+      "records": {
+        "type": "int"
+      },
+      "photos": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@backupRecordProgress": {
+    "description": "{done} / {total} recordings",
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@backupEta": {
+    "description": "About {seconds} seconds remaining",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "languageJapanese": "日本語",
+  "@languageJapanese": {
+    "description": "Language name shown in its own language"
+  },
+  "languageGerman": "Deutsch",
+  "@languageGerman": {
+    "description": "Language name shown in its own language"
+  },
+  "languageFrench": "Français",
+  "@languageFrench": {
+    "description": "Language name shown in its own language"
+  },
+  "languageItalian": "Italiano",
+  "@languageItalian": {
+    "description": "Language name shown in its own language"
+  }
+}
